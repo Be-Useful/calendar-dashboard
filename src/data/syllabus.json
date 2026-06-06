@@ -1,0 +1,424 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Fundamentals & Basic Arrays/Strings",
+      "days": [
+        {
+          "day": 1,
+          "title": "Time Complexity & Practice Arrays I",
+          "tasks": "Big-O analysis, basic array manipulation, Kadane's Algorithm",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Hashing & Practice Arrays II",
+          "tasks": "Using HashMaps for O(1) lookups in subarray problems",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Practice Strings I",
+          "tasks": "String matching overview, string rotations, anagrams",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Practice Strings II",
+          "tasks": "Advanced string manipulations, Palindromes",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "2D Array / Matrices",
+          "tasks": "Traversals like Spiral/Diagonal, Matrix rotations",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Linked Lists & Sorting",
+      "days": [
+        {
+          "day": 1,
+          "title": "Linked Lists I",
+          "tasks": "Fast and slow pointers, Cycle detection & starting point",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Linked Lists II",
+          "tasks": "Reversing variations, merging lists, deep copy",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Searching and Sorting Algorithms Overview",
+          "tasks": "Quick recap of standard algorithms",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Practice Sorting I",
+          "tasks": "Custom comparators in C++ STL / Java Collections",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Practice Sorting II",
+          "tasks": "Merge Sort applications: Counting Inversions, Reverse Pairs",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Stacks, Queues & Two Pointers",
+      "days": [
+        {
+          "day": 1,
+          "title": "Stacks and Queues",
+          "tasks": "Quick overview, implementing Queue using Stacks",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Monotonic Stacks",
+          "tasks": "Next Greater Element, Largest Rectangle in Histogram",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Deque & Sliding Window",
+          "tasks": "Sliding Window Maximum",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Two Pointers I",
+          "tasks": "Opposite directional: Container with most water, 2Sum",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Two Pointers II",
+          "tasks": "Equi-directional, 3Sum/4Sum optimizations",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Sliding Window, Prefix Sums & Greedy",
+      "days": [
+        {
+          "day": 1,
+          "title": "Prefix Sum Problems I",
+          "tasks": "1D Prefix sums, Subarray sum equals K",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Prefix Sum Problems II",
+          "tasks": "2D Prefix sums, Difference Arrays for range updates",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Sliding Window Technique",
+          "tasks": "Variable-size windows: Longest substring without repeating characters",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Greedy Algorithms I",
+          "tasks": "Sorting-based Greedy: Fractional Knapsack, Interval Scheduling",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Greedy Algorithms II",
+          "tasks": "Priority Queue based Greedy: Jump Game, Task Scheduler",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Recursion, Binary Search & Math",
+      "days": [
+        {
+          "day": 1,
+          "title": "Recursion & Backtracking I",
+          "tasks": "Generating subsets, combinations",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Recursion & Backtracking II",
+          "tasks": "Permutations, N-Queens, Sudoku Solver",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Binary Search",
+          "tasks": "Searching in rotated sorted arrays, Lower/Upper bounds",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Binary Search on Answers (Crucial)",
+          "tasks": "Monotonic search spaces: Aggressive Cows, Book Allocation",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Bit Manipulation",
+          "tasks": "XOR properties, bitmasking, subsets via bitmasks",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Trees, Heaps & Math",
+      "days": [
+        {
+          "day": 1,
+          "title": "Number theory & Combinatorics",
+          "tasks": "Sieve, Prime Factorization, nCr % P, Modulo Arithmetic",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Trees and Binary trees I",
+          "tasks": "Standard traversals, Views: Left, Right, Top, Bottom",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Trees and Binary trees II",
+          "tasks": "Lowest Common Ancestor, Tree diameter, Max path sum",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Heaps I",
+          "tasks": "Priority Queue fundamentals, Top K frequent elements",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Heaps II",
+          "tasks": "Finding Median from Data Stream, K-way merge",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "title": "Graph Theory Fundamentals",
+      "days": [
+        {
+          "day": 1,
+          "title": "Graphs I",
+          "tasks": "Adjacency List, BFS vs DFS fundamentals",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Graphs II",
+          "tasks": "Bipartite Graph checking, Connected Components",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Graphs III",
+          "tasks": "Cycle detection in Directed/Undirected Graphs",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Graphs IV",
+          "tasks": "Topological Sort / Kahn's Algorithm",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Disjoint Set Union (DSU)",
+          "tasks": "Union by rank, Path compression",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "title": "Advanced Graphs & Tries",
+      "days": [
+        {
+          "day": 1,
+          "title": "Graphs V (Shortest Paths)",
+          "tasks": "Dijkstra's Algorithm using Min-Heap",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Graphs VI (Shortest Paths)",
+          "tasks": "Bellman-Ford Algorithm, Floyd Warshall",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Graphs VII (Spanning Trees)",
+          "tasks": "Kruskal's Algorithm using DSU, Prim's",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Tries I",
+          "tasks": "Insert, Search, and StartsWith operations",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Tries II",
+          "tasks": "Advanced: Maximum XOR of two numbers in an array using Trie",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "title": "Dynamic Programming",
+      "days": [
+        {
+          "day": 1,
+          "title": "Dynamic programming I",
+          "tasks": "1D DP: Climbing stairs variations, House Robber",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Dynamic programming II",
+          "tasks": "2D DP & Grids: Unique Paths, Minimum Path Sum",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Dynamic programming III",
+          "tasks": "0/1 Knapsack, Subset Sum problem",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Dynamic programming IV",
+          "tasks": "DP on Strings: Longest Common Subsequence",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Dynamic programming V",
+          "tasks": "Longest Increasing Subsequence, Edit Distance",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Weekly Contest & Upsolving",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "title": "Interview Readiness & Review",
+      "days": [
+        {
+          "day": 1,
+          "title": "Data Structures Interview Questions I",
+          "tasks": "Designing LRU Cache, LFU Cache",
+          "isContest": false
+        },
+        {
+          "day": 2,
+          "title": "Data Structures Interview Questions II",
+          "tasks": "Design Add and Search Words Data Structure, Min Stack",
+          "isContest": false
+        },
+        {
+          "day": 3,
+          "title": "Mixed Problem Solving & Pattern Recognition",
+          "tasks": "Randomized problem sets to identify patterns blindly",
+          "isContest": false
+        },
+        {
+          "day": 4,
+          "title": "Mock Interview Focus",
+          "tasks": "Practicing communication while solving",
+          "isContest": false
+        },
+        {
+          "day": 5,
+          "title": "Mock Interview Focus",
+          "tasks": "Handling follow-up constraints and optimizations",
+          "isContest": false
+        },
+        {
+          "day": 6,
+          "title": "Grand Finale Simulated Interview Contest",
+          "tasks": "",
+          "isContest": true
+        }
+      ]
+    }
+  ]
+}
