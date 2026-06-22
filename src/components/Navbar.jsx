@@ -11,10 +11,7 @@ export default function Navbar() {
         <div className="nav-brand">CGC Training Hub</div>
         <div className="nav-links">
           <Link href="/" className={`nav-link ${pathname === '/' ? 'active' : ''}`}>
-            Overview (Docs)
-          </Link>
-          <Link href="/tracker" className={`nav-link ${pathname === '/tracker' ? 'active' : ''}`}>
-            Daily Tracker
+            Dashboard
           </Link>
         </div>
       </div>

@@ -1,0 +1,4632 @@
+{
+  "lastUpdated": "2026-06-22T18:26:17.224Z",
+  "totalStudents": 190,
+  "averageAttendance": 16,
+  "averagePracticeCompletion": 8,
+  "sessionStats": {
+    "lec0": {
+      "facultyDuration": 60.916666666666664,
+      "referenceDuration": 57.083333333333336,
+      "studentsPresent": 44
+    },
+    "lec1": {
+      "facultyDuration": 160.66666666666666,
+      "referenceDuration": 158.2,
+      "studentsPresent": 73
+    },
+    "lec2": {
+      "facultyDuration": 156.78333333333333,
+      "referenceDuration": 152.98333333333332,
+      "studentsPresent": 47
+    },
+    "lec3": {
+      "facultyDuration": 160.4,
+      "referenceDuration": 154.18333333333334,
+      "studentsPresent": 40
+    },
+    "lec4": {
+      "facultyDuration": 81.45,
+      "referenceDuration": 81.46666666666667,
+      "studentsPresent": 46
+    },
+    "lec5": {
+      "facultyDuration": 251.48333333333332,
+      "referenceDuration": 125.36666666666666,
+      "studentsPresent": 54
+    }
+  },
+  "students": [
+    {
+      "userId": "2850546",
+      "name": "Do Nothing",
+      "ccUsername": "harsh_raj0730",
+      "rollNo": "21bec100",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4069928",
+      "name": "gujjavarshith",
+      "ccUsername": "gujjavarshith",
+      "rollNo": "23bcs051",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 16,
+        "sessions": {
+          "lec1": 19,
+          "lec2": 23,
+          "lec5": 53
+        }
+      }
+    },
+    {
+      "userId": "4132525",
+      "name": "Siddhant Sinha",
+      "ccUsername": "sidsinha491",
+      "rollNo": "23bec052",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 60,
+        "prefixSums": 21,
+        "twoPointers": 3,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 57,
+        "week2Avg": 1,
+        "overall": 57
+      },
+      "attendance": {
+        "totalPercentageAvg": 88,
+        "sessions": {
+          "lec0": 76,
+          "lec1": 91,
+          "lec2": 82,
+          "lec3": 91,
+          "lec4": 94,
+          "lec5": 94
+        }
+      }
+    },
+    {
+      "userId": "4149208",
+      "name": "Anas Khan",
+      "ccUsername": "code_x83",
+      "rollNo": "23BCS083",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 3,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 1,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 17,
+        "sessions": {
+          "lec3": 100
+        }
+      }
+    },
+    {
+      "userId": "4273388",
+      "name": "prajin2005",
+      "ccUsername": "prajin2005",
+      "rollNo": "23bec036",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4288724",
+      "name": "sadan_kumar",
+      "ccUsername": "sadan_kumar",
+      "rollNo": "23bds048",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 8,
+        "sessions": {
+          "lec0": 39,
+          "lec3": 6
+        }
+      }
+    },
+    {
+      "userId": "4370669",
+      "name": "hardikm21",
+      "ccUsername": "hardikm21",
+      "rollNo": "23BEC020",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4423483",
+      "name": "sudh1404",
+      "ccUsername": "sudh1404",
+      "rollNo": "23bds059",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4423492",
+      "name": "Rishabh",
+      "ccUsername": "ris_9",
+      "rollNo": "23bcs107",
+      "modules": {
+        "timeComplexity": 9,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 3,
+        "week2Avg": 0,
+        "overall": 3
+      },
+      "attendance": {
+        "totalPercentageAvg": 28,
+        "sessions": {
+          "lec1": 44,
+          "lec2": 23,
+          "lec3": 45,
+          "lec5": 54
+        }
+      }
+    },
+    {
+      "userId": "4473751",
+      "name": "modak67",
+      "ccUsername": "modak67",
+      "rollNo": "23bcs067",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 15,
+        "sessions": {
+          "lec1": 88
+        }
+      }
+    },
+    {
+      "userId": "4475185",
+      "name": "siddhaartha09",
+      "ccUsername": "siddhaartha09",
+      "rollNo": "23bcs127",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4475449",
+      "name": "om_pandey21",
+      "ccUsername": "om_pandey21",
+      "rollNo": "23bds040",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4475666",
+      "name": "keerthivassan",
+      "ccUsername": "keerthivassan",
+      "rollNo": "23bcs114",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 8,
+        "sessions": {
+          "lec1": 28,
+          "lec5": 20
+        }
+      }
+    },
+    {
+      "userId": "4485112",
+      "name": "satyam2520",
+      "ccUsername": "satyam2520",
+      "rollNo": "23bec047",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {
+          "lec5": 0
+        }
+      }
+    },
+    {
+      "userId": "4490588",
+      "name": "janakiram141",
+      "ccUsername": "janakiram141",
+      "rollNo": "23bcs141",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 46,
+        "sessions": {
+          "lec0": 76,
+          "lec1": 91,
+          "lec2": 10,
+          "lec4": 96
+        }
+      }
+    },
+    {
+      "userId": "4536499",
+      "name": "mohan12_12",
+      "ccUsername": "mohan12_12",
+      "rollNo": "23bds035",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4541651",
+      "name": "Saurav",
+      "ccUsername": "bcs118",
+      "rollNo": "23bcs118",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4661709",
+      "name": "tcNYwsrw",
+      "ccUsername": "yrwhvvre",
+      "rollNo": "23bcs037",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 90,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 7,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 30,
+        "week2Avg": 2,
+        "overall": 30
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4695420",
+      "name": "sairithvik_07",
+      "ccUsername": "sairithvik_07",
+      "rollNo": "23BCS070",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 90,
+        "prefixSums": 64,
+        "twoPointers": 51,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 81,
+        "week2Avg": 13,
+        "overall": 81
+      },
+      "attendance": {
+        "totalPercentageAvg": 62,
+        "sessions": {
+          "lec0": 98,
+          "lec1": 66,
+          "lec2": 19,
+          "lec4": 99,
+          "lec5": 92
+        }
+      }
+    },
+    {
+      "userId": "4795219",
+      "name": "BOPPUDI OM SAI CHAND IIIT Dharwad",
+      "ccUsername": "dandy_isle_32",
+      "rollNo": "23bcs035",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 80,
+        "prefixSums": 0,
+        "twoPointers": 12,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 27,
+        "week2Avg": 3,
+        "overall": 27
+      },
+      "attendance": {
+        "totalPercentageAvg": 27,
+        "sessions": {
+          "lec1": 72,
+          "lec2": 42,
+          "lec5": 49
+        }
+      }
+    },
+    {
+      "userId": "4795981",
+      "name": "Aayush Kr. Gupta",
+      "ccUsername": "i_am_aayushkr",
+      "rollNo": "23bec001",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "4807742",
+      "name": "Kuladeep Gompa",
+      "ccUsername": "solar_cats_21",
+      "rollNo": "23bds021",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 8,
+        "sessions": {
+          "lec1": 45
+        }
+      }
+    },
+    {
+      "userId": "4855850",
+      "name": "TANMAY GUPTA IIIT Dharwad",
+      "ccUsername": "tanmaygupta01",
+      "rollNo": "23bds061",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 10,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 3,
+        "week2Avg": 0,
+        "overall": 3
+      },
+      "attendance": {
+        "totalPercentageAvg": 25,
+        "sessions": {
+          "lec0": 56,
+          "lec1": 92,
+          "lec4": 1
+        }
+      }
+    },
+    {
+      "userId": "5073346",
+      "name": "P SHARMI IIIT Dharwad",
+      "ccUsername": "sharmibuilds",
+      "rollNo": "23bcs090",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 19,
+        "sessions": {
+          "lec4": 65,
+          "lec5": 48
+        }
+      }
+    },
+    {
+      "userId": "5108345",
+      "name": "Varshith",
+      "ccUsername": "pavani_3690",
+      "rollNo": "23bds011",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec0": 6
+        }
+      }
+    },
+    {
+      "userId": "5129160",
+      "name": "ADITYA GUNTUR IIIT Dharwad",
+      "ccUsername": "glad_orchid_68",
+      "rollNo": "23bds003",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 40,
+        "prefixSums": 0,
+        "twoPointers": 3,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 13,
+        "week2Avg": 1,
+        "overall": 13
+      },
+      "attendance": {
+        "totalPercentageAvg": 95,
+        "sessions": {
+          "lec0": 92,
+          "lec1": 95,
+          "lec2": 94,
+          "lec3": 94,
+          "lec4": 97,
+          "lec5": 100
+        }
+      }
+    },
+    {
+      "userId": "5129347",
+      "name": "ABHINANDAN KUMAR IIIT Dharwad",
+      "ccUsername": "solo_abhi",
+      "rollNo": "23BDS001",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 10,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 3,
+        "week2Avg": 0,
+        "overall": 3
+      },
+      "attendance": {
+        "totalPercentageAvg": 77,
+        "sessions": {
+          "lec0": 73,
+          "lec1": 73,
+          "lec2": 61,
+          "lec3": 95,
+          "lec4": 77,
+          "lec5": 84
+        }
+      }
+    },
+    {
+      "userId": "5288784",
+      "name": "PARVEEN KUMAR",
+      "ccUsername": "parrveen",
+      "rollNo": "23BCS093",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "5316926",
+      "name": "tejaswi83",
+      "ccUsername": "tejaswi83",
+      "rollNo": "23bds064",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 23,
+        "sessions": {
+          "lec1": 44,
+          "lec2": 21,
+          "lec4": 73
+        }
+      }
+    },
+    {
+      "userId": "5425352",
+      "name": "Prathamesh Patil",
+      "ccUsername": "swift_care_96",
+      "rollNo": "23bds043",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "5426240",
+      "name": "akash07264",
+      "ccUsername": "akash07264",
+      "rollNo": "23bds031",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec2": 8
+        }
+      }
+    },
+    {
+      "userId": "5450465",
+      "name": "DHULIPALLA HARSHA VARDHAN IIIT Dharwad",
+      "ccUsername": "band_frost_98",
+      "rollNo": "23bcs045",
+      "modules": {
+        "timeComplexity": 65,
+        "arraysStringsSorting": 90,
+        "prefixSums": 0,
+        "twoPointers": 32,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 52,
+        "week2Avg": 8,
+        "overall": 52
+      },
+      "attendance": {
+        "totalPercentageAvg": 66,
+        "sessions": {
+          "lec0": 21,
+          "lec1": 94,
+          "lec2": 0,
+          "lec3": 100,
+          "lec4": 92,
+          "lec5": 90
+        }
+      }
+    },
+    {
+      "userId": "5451779",
+      "name": "KALA SURYA NARAYANA RAO IIIT Dharwad",
+      "ccUsername": "surya_iiit_dh",
+      "rollNo": "23bds025",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 0,
+        "prefixSums": 7,
+        "twoPointers": 6,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 32,
+        "week2Avg": 2,
+        "overall": 32
+      },
+      "attendance": {
+        "totalPercentageAvg": 94,
+        "sessions": {
+          "lec0": 84,
+          "lec1": 96,
+          "lec2": 98,
+          "lec3": 99,
+          "lec4": 92,
+          "lec5": 95
+        }
+      }
+    },
+    {
+      "userId": "5569889",
+      "name": "KARRA RAM CHARAN NAYAK IIIT Dharwad",
+      "ccUsername": "ramcharan1919",
+      "rollNo": "23bds029",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec2": 3
+        }
+      }
+    },
+    {
+      "userId": "5576422",
+      "name": "YERUVA MAHESH REDDY IIIT Dharwad",
+      "ccUsername": "tiding_tale_29",
+      "rollNo": "23bcs136",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 10,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 3,
+        "week2Avg": 0,
+        "overall": 3
+      },
+      "attendance": {
+        "totalPercentageAvg": 3,
+        "sessions": {
+          "lec4": 15
+        }
+      }
+    },
+    {
+      "userId": "5595429",
+      "name": "BONGU ASHISH IIIT Dharwad",
+      "ccUsername": "hatch_magic_70",
+      "rollNo": "23bds014",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 6,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 2,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 63,
+        "sessions": {
+          "lec0": 17,
+          "lec1": 91,
+          "lec2": 42,
+          "lec3": 86,
+          "lec4": 68,
+          "lec5": 74
+        }
+      }
+    },
+    {
+      "userId": "5708314",
+      "name": "KAMBLE SAKSHAM SUCHIVRAT IIIT Dharwad",
+      "ccUsername": "sc_fi_x86",
+      "rollNo": "23bcs063",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "6039362",
+      "name": "JYOTINDER YADAV IIIT Dharwad",
+      "ccUsername": "jyotinder",
+      "rollNo": "23BCS058",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "6111641",
+      "name": "BALAJI CHANNAPPAGOUDAR IIIT Dharwad",
+      "ccUsername": "stench_apes_29",
+      "rollNo": "23bec009",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 14,
+        "sessions": {
+          "lec2": 9,
+          "lec4": 69,
+          "lec5": 4
+        }
+      }
+    },
+    {
+      "userId": "6275060",
+      "name": "ADARSH S KAMATAGI IIIT Dharwad",
+      "ccUsername": "ms903",
+      "rollNo": "23BCS005",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 80,
+        "prefixSums": 42,
+        "twoPointers": 35,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 71,
+        "week2Avg": 9,
+        "overall": 71
+      },
+      "attendance": {
+        "totalPercentageAvg": 79,
+        "sessions": {
+          "lec1": 97,
+          "lec2": 92,
+          "lec3": 95,
+          "lec4": 92,
+          "lec5": 97
+        }
+      }
+    },
+    {
+      "userId": "6366531",
+      "name": "karthik",
+      "ccUsername": "karthik3006",
+      "rollNo": "23bcs031",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "6368018",
+      "name": "PREETHAM P",
+      "ccUsername": "tison_123",
+      "rollNo": "23bds046",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 20,
+        "prefixSums": 7,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 9,
+        "week2Avg": 0,
+        "overall": 9
+      },
+      "attendance": {
+        "totalPercentageAvg": 23,
+        "sessions": {
+          "lec0": 16,
+          "lec1": 37,
+          "lec2": 19,
+          "lec4": 36,
+          "lec5": 31
+        }
+      }
+    },
+    {
+      "userId": "6899300",
+      "name": "SAISHA SURESH BORE IIIT Dharwad",
+      "ccUsername": "rapid_hyena_22",
+      "rollNo": "23bcs116",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec0": 6,
+          "lec1": 1
+        }
+      }
+    },
+    {
+      "userId": "7002919",
+      "name": "Vaibhav Sharma",
+      "ccUsername": "eventhorizon33",
+      "rollNo": "23bds066",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 63,
+        "sessions": {
+          "lec0": 93,
+          "lec1": 95,
+          "lec2": 98,
+          "lec5": 93
+        }
+      }
+    },
+    {
+      "userId": "7002981",
+      "name": "K Ganesh Chavhan",
+      "ccUsername": "chavhann02",
+      "rollNo": "23bcs059",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7003059",
+      "name": "SARAGALLA MANASA IIIT Dharwad",
+      "ccUsername": "manasa_sarag",
+      "rollNo": "23bds051",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 11,
+        "sessions": {
+          "lec1": 68
+        }
+      }
+    },
+    {
+      "userId": "7037434",
+      "name": "RAHUL PATEL IIIT Dharwad",
+      "ccUsername": "rahulpateltrue",
+      "rollNo": "23BDS047",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 32,
+        "sessions": {
+          "lec1": 5,
+          "lec3": 12,
+          "lec4": 88,
+          "lec5": 86
+        }
+      }
+    },
+    {
+      "userId": "7037440",
+      "name": "Venkatesh Dhangar",
+      "ccUsername": "venkatesh_041",
+      "rollNo": "23bcs041",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 20,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 7,
+        "week2Avg": 0,
+        "overall": 7
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037443",
+      "name": "ANKIT KUSHWAHA IIIT Dharwad",
+      "ccUsername": "sweet_cats_06",
+      "rollNo": "23BDS008",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 2,
+        "sessions": {
+          "lec0": 1,
+          "lec1": 10
+        }
+      }
+    },
+    {
+      "userId": "7037451",
+      "name": "KAMAL NAYAN KUMAR",
+      "ccUsername": "nayan90k",
+      "rollNo": "23BDS026",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 70,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 23,
+        "week2Avg": 0,
+        "overall": 23
+      },
+      "attendance": {
+        "totalPercentageAvg": 56,
+        "sessions": {
+          "lec0": 86,
+          "lec1": 90,
+          "lec4": 92,
+          "lec5": 66
+        }
+      }
+    },
+    {
+      "userId": "7037457",
+      "name": "JAYESHWAR PRATAP SINGH TANWAR IIIT Dharwad",
+      "ccUsername": "jpst01",
+      "rollNo": "23BEC023",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 18,
+        "sessions": {
+          "lec1": 62,
+          "lec3": 44
+        }
+      }
+    },
+    {
+      "userId": "7037459",
+      "name": "SHANTANU DUKARE IIIT Dharwad",
+      "ccUsername": "hatch_quilt_90",
+      "rollNo": "23bcs121",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 10,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 3,
+        "week2Avg": 0,
+        "overall": 3
+      },
+      "attendance": {
+        "totalPercentageAvg": 45,
+        "sessions": {
+          "lec0": 48,
+          "lec1": 71,
+          "lec2": 79,
+          "lec3": 72
+        }
+      }
+    },
+    {
+      "userId": "7037465",
+      "name": "MADDILA RAJESH IIIT Dharwad",
+      "ccUsername": "madphoenix077",
+      "rollNo": "23BCS077",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037472",
+      "name": "MOHD ADNAN KHAN IIIT Dharwad",
+      "ccUsername": "brill_silk_90",
+      "rollNo": "23bec028",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037475",
+      "name": "AGGIMALLA ABHISHEK IIIT Dharwad",
+      "ccUsername": "aggimalla_04",
+      "rollNo": "23bds004",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 46,
+        "sessions": {
+          "lec0": 48,
+          "lec1": 8,
+          "lec2": 63,
+          "lec3": 59,
+          "lec4": 100
+        }
+      }
+    },
+    {
+      "userId": "7037485",
+      "name": "SAMBHAV MISHRA IIIT Dharwad",
+      "ccUsername": "sambhav8282",
+      "rollNo": "23bds050",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037497",
+      "name": "CHEVIREDDY POTHAN SAI REDDY IIIT Dharwad",
+      "ccUsername": "pothan0",
+      "rollNo": "23bds017",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec3": 3
+        }
+      }
+    },
+    {
+      "userId": "7037507",
+      "name": "Amarjeet Raj",
+      "ccUsername": "amar_iiitd",
+      "rollNo": "23bds006",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 60,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 20,
+        "week2Avg": 0,
+        "overall": 20
+      },
+      "attendance": {
+        "totalPercentageAvg": 81,
+        "sessions": {
+          "lec0": 80,
+          "lec1": 96,
+          "lec2": 95,
+          "lec3": 61,
+          "lec4": 96,
+          "lec5": 58
+        }
+      }
+    },
+    {
+      "userId": "7037510",
+      "name": "BHARATH PRASAD IIIT Dharwad",
+      "ccUsername": "b23bec010",
+      "rollNo": "23bec010",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037520",
+      "name": "ALTAF RAJA",
+      "ccUsername": "altaf_raja_01",
+      "rollNo": "23bcs011",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 16,
+        "sessions": {
+          "lec0": 11,
+          "lec4": 17,
+          "lec5": 69
+        }
+      }
+    },
+    {
+      "userId": "7037530",
+      "name": "MANIKESH KUMAR IIIT Dharwad",
+      "ccUsername": "manikeshk",
+      "rollNo": "23bds032",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 23,
+        "sessions": {
+          "lec1": 63,
+          "lec5": 73
+        }
+      }
+    },
+    {
+      "userId": "7037541",
+      "name": "Mann Yadav",
+      "ccUsername": "muster_ref_38",
+      "rollNo": "23bcs078",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037552",
+      "name": "Shreedhar K B",
+      "ccUsername": "shreedhar_23",
+      "rollNo": "23BCS126",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec3": 5,
+          "lec4": 3
+        }
+      }
+    },
+    {
+      "userId": "7037566",
+      "name": "ATITHI JAIMAN",
+      "ccUsername": "atithi_29",
+      "rollNo": "23BCS021",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037569",
+      "name": "RANJITH BABU IIIT Dharwad",
+      "ccUsername": "rba27",
+      "rollNo": "23bec043",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec1": 5
+        }
+      }
+    },
+    {
+      "userId": "7037570",
+      "name": "shivaputra",
+      "ccUsername": "appu_800",
+      "rollNo": "23bcs124",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 3,
+        "sessions": {
+          "lec0": 11,
+          "lec1": 8,
+          "lec2": 0
+        }
+      }
+    },
+    {
+      "userId": "7037571",
+      "name": "SARTHAK GOYAL IIIT Dharwad",
+      "ccUsername": "sarthak_2",
+      "rollNo": "23BCS117",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 90,
+        "prefixSums": 35,
+        "twoPointers": 6,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 72,
+        "week2Avg": 2,
+        "overall": 72
+      },
+      "attendance": {
+        "totalPercentageAvg": 46,
+        "sessions": {
+          "lec1": 92,
+          "lec2": 3,
+          "lec3": 92,
+          "lec4": 87
+        }
+      }
+    },
+    {
+      "userId": "7037577",
+      "name": "RISHIK NATRA",
+      "ccUsername": "rishik_iiitdwd",
+      "rollNo": "23bcs108",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 70,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 23,
+        "week2Avg": 0,
+        "overall": 23
+      },
+      "attendance": {
+        "totalPercentageAvg": 71,
+        "sessions": {
+          "lec1": 99,
+          "lec2": 96,
+          "lec3": 79,
+          "lec4": 93,
+          "lec5": 56
+        }
+      }
+    },
+    {
+      "userId": "7037578",
+      "name": "UDAY PATEL IIIT Dharwad",
+      "ccUsername": "lush_fold_85",
+      "rollNo": "23bec058",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 60,
+        "prefixSums": 0,
+        "twoPointers": 3,
+        "linkedLists": 14,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 20,
+        "week2Avg": 4,
+        "overall": 20
+      },
+      "attendance": {
+        "totalPercentageAvg": 20,
+        "sessions": {
+          "lec1": 48,
+          "lec2": 13,
+          "lec5": 59
+        }
+      }
+    },
+    {
+      "userId": "7037580",
+      "name": "Himanshu Kumar",
+      "ccUsername": "himanshu2112",
+      "rollNo": "23bcs055",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 70,
+        "prefixSums": 0,
+        "twoPointers": 9,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 23,
+        "week2Avg": 2,
+        "overall": 23
+      },
+      "attendance": {
+        "totalPercentageAvg": 30,
+        "sessions": {
+          "lec0": 5,
+          "lec1": 21,
+          "lec2": 1,
+          "lec4": 83,
+          "lec5": 71
+        }
+      }
+    },
+    {
+      "userId": "7037583",
+      "name": "C. Sai Aravind",
+      "ccUsername": "computer10",
+      "rollNo": "23bds075",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037593",
+      "name": "Rithwik Mahanti",
+      "ccUsername": "rithwik57",
+      "rollNo": "23bcs109",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037604",
+      "name": "SHIVAMBU DEV PANDEY IIIT Dharwad",
+      "ccUsername": "colony_dog_43",
+      "rollNo": "23BCS123",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037626",
+      "name": "DHRUPAD DAS IIIT Dharwad",
+      "ccUsername": "dhrupad_iiit18",
+      "rollNo": "23bds018",
+      "modules": {
+        "timeComplexity": 11,
+        "arraysStringsSorting": 30,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 14,
+        "week2Avg": 0,
+        "overall": 14
+      },
+      "attendance": {
+        "totalPercentageAvg": 82,
+        "sessions": {
+          "lec0": 90,
+          "lec1": 95,
+          "lec2": 95,
+          "lec3": 26,
+          "lec4": 90,
+          "lec5": 95
+        }
+      }
+    },
+    {
+      "userId": "7037643",
+      "name": "OJAS ABHIJIT JOGDAND IIIT Dharwad",
+      "ccUsername": "vigil_noble_44",
+      "rollNo": "23BDS039",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037644",
+      "name": "DUDLEWAR ADINATH BALAJIRAO IIIT Dharwad",
+      "ccUsername": "adinathd",
+      "rollNo": "23bcs046",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037645",
+      "name": "ABHINAV VERMA IIIT Dharwad",
+      "ccUsername": "jolly_salt_98",
+      "rollNo": "23bcs004",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037646",
+      "name": "PENDEKATLA ANEESH IIIT Dharwad",
+      "ccUsername": "aneesh_pen",
+      "rollNo": "23BCS095",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 30,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 40,
+        "week2Avg": 0,
+        "overall": 40
+      },
+      "attendance": {
+        "totalPercentageAvg": 46,
+        "sessions": {
+          "lec1": 57,
+          "lec2": 27,
+          "lec4": 96,
+          "lec5": 98
+        }
+      }
+    },
+    {
+      "userId": "7037648",
+      "name": "RATHOD GAGAN SURESH IIIT Dharwad",
+      "ccUsername": "rathodgagan18",
+      "rollNo": "23bcs106",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 70,
+        "prefixSums": 50,
+        "twoPointers": 16,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 70,
+        "week2Avg": 4,
+        "overall": 70
+      },
+      "attendance": {
+        "totalPercentageAvg": 93,
+        "sessions": {
+          "lec0": 97,
+          "lec1": 85,
+          "lec2": 100,
+          "lec3": 83,
+          "lec4": 100,
+          "lec5": 95
+        }
+      }
+    },
+    {
+      "userId": "7037649",
+      "name": "PULKIT YADAV IIIT Dharwad",
+      "ccUsername": "pulkit_yadav07",
+      "rollNo": "23BEC042",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037651",
+      "name": "ARUNODAYA HOSAKERI IIIT Dharwad",
+      "ccUsername": "arun_hosakeri",
+      "rollNo": "23bcs017",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 90,
+        "prefixSums": 28,
+        "twoPointers": 22,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 39,
+        "week2Avg": 6,
+        "overall": 39
+      },
+      "attendance": {
+        "totalPercentageAvg": 73,
+        "sessions": {
+          "lec1": 97,
+          "lec2": 76,
+          "lec3": 92,
+          "lec4": 85,
+          "lec5": 85
+        }
+      }
+    },
+    {
+      "userId": "7037652",
+      "name": "AKHILESH RAJENDRAKUMAR GHADGE IIIT Dharwad",
+      "ccUsername": "akhilesh1123",
+      "rollNo": "23bec004",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037654",
+      "name": "JAYESH VIJAY PATIL",
+      "ccUsername": "huge_summit_31",
+      "rollNo": "23bcs057",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037656",
+      "name": "AMAL MOHANAN IIIT Dharwad",
+      "ccUsername": "amal99999",
+      "rollNo": "23bcs012",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 40,
+        "week1Avg": 0,
+        "week2Avg": 10,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037658",
+      "name": "MADHUR SINGH IIIT Dharwad",
+      "ccUsername": "clean_scene_30",
+      "rollNo": "23BEC024",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037664",
+      "name": "Shamanth Rao",
+      "ccUsername": "goofy_steel_19",
+      "rollNo": "23bec049",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 100,
+        "prefixSums": 28,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 6,
+        "week1Avg": 43,
+        "week2Avg": 2,
+        "overall": 43
+      },
+      "attendance": {
+        "totalPercentageAvg": 54,
+        "sessions": {
+          "lec1": 41,
+          "lec2": 94,
+          "lec3": 96,
+          "lec4": 90
+        }
+      }
+    },
+    {
+      "userId": "7037665",
+      "name": "Bikram Hawladar",
+      "ccUsername": "zany_spark_88",
+      "rollNo": "23bcs033",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 13,
+        "sessions": {
+          "lec5": 80
+        }
+      }
+    },
+    {
+      "userId": "7037666",
+      "name": "CHITRANGANA LAXKAR IIIT Dharwad",
+      "ccUsername": "chitrangana_10",
+      "rollNo": "23BEC012",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec1": 1,
+          "lec5": 6
+        }
+      }
+    },
+    {
+      "userId": "7037668",
+      "name": "Pratyush Anand",
+      "ccUsername": "pratyush_1607",
+      "rollNo": "23bec039",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 8,
+        "sessions": {
+          "lec5": 48
+        }
+      }
+    },
+    {
+      "userId": "7037671",
+      "name": "DHRUV R KATTI IIIT Dharwad",
+      "ccUsername": "tiding_harp_75",
+      "rollNo": "23BEC015",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037688",
+      "name": "Amritanshu Aditya",
+      "ccUsername": "amrit_23bcs013",
+      "rollNo": "23BCS013",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037691",
+      "name": "VANGA SHANI VENKATESH IIIT Dharwad",
+      "ccUsername": "fine_harp_56",
+      "rollNo": "23bec060",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037703",
+      "name": "OJAS TULSHIAN IIIT Dharwad",
+      "ccUsername": "clean_hill_25",
+      "rollNo": "23bec034",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037729",
+      "name": "YOGESH GUPTA IIIT Dharwad",
+      "ccUsername": "grand_tryst_51",
+      "rollNo": "23bcs137",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037732",
+      "name": "BHUMICA JAISWAL IIIT Dharwad",
+      "ccUsername": "the_drift_17",
+      "rollNo": "23bcs032",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037734",
+      "name": "PRANAV KASHYAP IIIT Dharwad",
+      "ccUsername": "pure_pond_38",
+      "rollNo": "23bcs098",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 12,
+        "sessions": {
+          "lec1": 50,
+          "lec5": 23
+        }
+      }
+    },
+    {
+      "userId": "7037739",
+      "name": "AALOK KUMAR IIIT Dharwad",
+      "ccUsername": "aalok112128",
+      "rollNo": "23bcs003",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037741",
+      "name": "MIHIR IIIT Dharwad",
+      "ccUsername": "mihir_23bcs080",
+      "rollNo": "23bcs080",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 69,
+        "sessions": {
+          "lec0": 96,
+          "lec1": 96,
+          "lec3": 39,
+          "lec4": 97,
+          "lec5": 88
+        }
+      }
+    },
+    {
+      "userId": "7037749",
+      "name": "KANISHK PANDEY IIIT Dharwad",
+      "ccUsername": "kanishkp19",
+      "rollNo": "23BDS027",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037765",
+      "name": "RAKSHIT VERMA IIIT Dharwad",
+      "ccUsername": "rverma_0631",
+      "rollNo": "23bcs105",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 5,
+        "sessions": {
+          "lec0": 28
+        }
+      }
+    },
+    {
+      "userId": "7037784",
+      "name": "Kula deepthi",
+      "ccUsername": "dpti0612",
+      "rollNo": "23bds013",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037796",
+      "name": "ANKIT KUMAR KESHARI IIIT Dharwad",
+      "ccUsername": "ankitkeshri52",
+      "rollNo": "23BCS015",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037797",
+      "name": "BABHALE ROHAN LAXMIKANT IIIT Dharwad",
+      "ccUsername": "rohan_babhale",
+      "rollNo": "23bcs026",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 50,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 17,
+        "week2Avg": 0,
+        "overall": 17
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037798",
+      "name": "PRANAV PRAMOD IIIT Dharwad",
+      "ccUsername": "glam_manor_97",
+      "rollNo": "23bec038",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037824",
+      "name": "HARSH RAJ IIIT Dharwad",
+      "ccUsername": "elect_medal_55",
+      "rollNo": "23bds076",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 42,
+        "sessions": {
+          "lec0": 5,
+          "lec1": 66,
+          "lec2": 49,
+          "lec4": 87,
+          "lec5": 46
+        }
+      }
+    },
+    {
+      "userId": "7037837",
+      "name": "BHAGYA VISHWAKARMA IIIT Dharwad",
+      "ccUsername": "bhagya_029",
+      "rollNo": "23bcs029",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 100,
+        "prefixSums": 0,
+        "twoPointers": 25,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 33,
+        "week2Avg": 6,
+        "overall": 33
+      },
+      "attendance": {
+        "totalPercentageAvg": 42,
+        "sessions": {
+          "lec0": 77,
+          "lec1": 82,
+          "lec5": 90
+        }
+      }
+    },
+    {
+      "userId": "7037871",
+      "name": "KOTHAPALLY ANJAN REDDY IIIT Dharwad",
+      "ccUsername": "anjan_reddy_59",
+      "rollNo": "23bcs071",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 40,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 13,
+        "week2Avg": 0,
+        "overall": 13
+      },
+      "attendance": {
+        "totalPercentageAvg": 24,
+        "sessions": {
+          "lec1": 73,
+          "lec2": 7,
+          "lec5": 64
+        }
+      }
+    },
+    {
+      "userId": "7037909",
+      "name": "KOUSHIK C IIIT Dharwad",
+      "ccUsername": "koushikc_2244",
+      "rollNo": "23BCS073",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 4,
+        "sessions": {
+          "lec1": 21
+        }
+      }
+    },
+    {
+      "userId": "7037912",
+      "name": "K L N SAI ADITYA",
+      "ccUsername": "saiaditya6558",
+      "rollNo": "23bcs060",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 100,
+        "prefixSums": 0,
+        "twoPointers": 9,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 33,
+        "week2Avg": 2,
+        "overall": 33
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037918",
+      "name": "CHEERA SAI SATHWIK",
+      "ccUsername": "saisathwik_88",
+      "rollNo": "23BCS036",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 17,
+        "sessions": {
+          "lec1": 97,
+          "lec3": 7
+        }
+      }
+    },
+    {
+      "userId": "7037943",
+      "name": "BHOOMIKA MANNUR",
+      "ccUsername": "bhoomikamm",
+      "rollNo": "23bcs030",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 100,
+        "prefixSums": 0,
+        "twoPointers": 22,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 63,
+        "week2Avg": 6,
+        "overall": 63
+      },
+      "attendance": {
+        "totalPercentageAvg": 61,
+        "sessions": {
+          "lec1": 96,
+          "lec2": 94,
+          "lec4": 93,
+          "lec5": 83
+        }
+      }
+    },
+    {
+      "userId": "7037953",
+      "name": "AADHYA ROHISH",
+      "ccUsername": "aadhya_rohish",
+      "rollNo": "23BCS002",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037970",
+      "name": "YASH SRIVASTAVA IIIT Dharwad",
+      "ccUsername": "yash_the_goat",
+      "rollNo": "23BDS071",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 9,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 2,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 30,
+        "sessions": {
+          "lec1": 100,
+          "lec4": 77
+        }
+      }
+    },
+    {
+      "userId": "7037975",
+      "name": "G V PRAJWAL IIIT Dharwad",
+      "ccUsername": "andesindica25",
+      "rollNo": "23bcs048",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 4,
+        "sessions": {
+          "lec5": 25
+        }
+      }
+    },
+    {
+      "userId": "7037981",
+      "name": "RAHUL SONI IIIT Dharwad",
+      "ccUsername": "bold_score_26",
+      "rollNo": "23bcs104",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 60,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 20,
+        "week2Avg": 0,
+        "overall": 20
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7037987",
+      "name": "A Vagish Adinad",
+      "ccUsername": "adinad_21",
+      "rollNo": "23bcs001",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 61,
+        "sessions": {
+          "lec1": 86,
+          "lec2": 97,
+          "lec3": 99,
+          "lec4": 84
+        }
+      }
+    },
+    {
+      "userId": "7038005",
+      "name": "NIRBHAY GUPTA IIIT Dharwad",
+      "ccUsername": "nirbhay4",
+      "rollNo": "23bec032",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 10,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 3,
+        "week2Avg": 0,
+        "overall": 3
+      },
+      "attendance": {
+        "totalPercentageAvg": 5,
+        "sessions": {
+          "lec1": 14,
+          "lec2": 0,
+          "lec4": 13
+        }
+      }
+    },
+    {
+      "userId": "7038008",
+      "name": "RACHANA Malakappa KADLEWAD",
+      "ccUsername": "rachana_mlk",
+      "rollNo": "23bcs101",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 30,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 10,
+        "week2Avg": 0,
+        "overall": 10
+      },
+      "attendance": {
+        "totalPercentageAvg": 33,
+        "sessions": {
+          "lec1": 46,
+          "lec2": 1,
+          "lec4": 92,
+          "lec5": 58
+        }
+      }
+    },
+    {
+      "userId": "7038039",
+      "name": "JAKKOJU KALYAN IIIT Dharwad",
+      "ccUsername": "j_kalyan7",
+      "rollNo": "23bec022",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec4": 8
+        }
+      }
+    },
+    {
+      "userId": "7038053",
+      "name": "GADUPUDI RAKESH IIIT Dharwad",
+      "ccUsername": "g_rakesh17",
+      "rollNo": "23BCS049",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 34,
+        "sessions": {
+          "lec0": 59,
+          "lec1": 95,
+          "lec2": 0,
+          "lec5": 48
+        }
+      }
+    },
+    {
+      "userId": "7038064",
+      "name": "Gaurav Kumar Chandravanshi",
+      "ccUsername": "spidermango",
+      "rollNo": "23bec019",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 100,
+        "prefixSums": 57,
+        "twoPointers": 74,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 82,
+        "week2Avg": 19,
+        "overall": 82
+      },
+      "attendance": {
+        "totalPercentageAvg": 68,
+        "sessions": {
+          "lec0": 98,
+          "lec1": 77,
+          "lec2": 74,
+          "lec3": 27,
+          "lec4": 94,
+          "lec5": 35
+        }
+      }
+    },
+    {
+      "userId": "7038074",
+      "name": "MAYANK BANSAL IIIT Dharwad",
+      "ccUsername": "mayankdev",
+      "rollNo": "23bec026",
+      "modules": {
+        "timeComplexity": 11,
+        "arraysStringsSorting": 60,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 24,
+        "week2Avg": 0,
+        "overall": 24
+      },
+      "attendance": {
+        "totalPercentageAvg": 47,
+        "sessions": {
+          "lec0": 84,
+          "lec1": 69,
+          "lec3": 31,
+          "lec5": 98
+        }
+      }
+    },
+    {
+      "userId": "7038128",
+      "name": "Divyansh Mishra",
+      "ccUsername": "gnd_0",
+      "rollNo": "23bec016",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {
+          "lec1": 1
+        }
+      }
+    },
+    {
+      "userId": "7038131",
+      "name": "SHARATH A RAJAWATH IIIT Dharwad",
+      "ccUsername": "sraj_06",
+      "rollNo": "23bec050",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038140",
+      "name": "JAKKIREDDY GANESH KUMAR REDDY IIIT Dharwad",
+      "ccUsername": "route_cliff_59",
+      "rollNo": "23BDS024",
+      "modules": {
+        "timeComplexity": 11,
+        "arraysStringsSorting": 10,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 7,
+        "week2Avg": 0,
+        "overall": 7
+      },
+      "attendance": {
+        "totalPercentageAvg": 88,
+        "sessions": {
+          "lec0": 81,
+          "lec1": 95,
+          "lec2": 79,
+          "lec3": 92,
+          "lec4": 82,
+          "lec5": 97
+        }
+      }
+    },
+    {
+      "userId": "7038146",
+      "name": "Manyam Jagadeeswar Reddy",
+      "ccUsername": "crash_pine_21",
+      "rollNo": "23bds033",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038153",
+      "name": "TARAN JAIN IIIT Dharwad",
+      "ccUsername": "taran19",
+      "rollNo": "23BDS062",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec2": 4
+        }
+      }
+    },
+    {
+      "userId": "7038160",
+      "name": "PRADNESH FERNANDEZ A IIIT Dharwad",
+      "ccUsername": "pradnesh26",
+      "rollNo": "23bds044",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038163",
+      "name": "Ganesh Kumatole",
+      "ccUsername": "ganeshkumatole",
+      "rollNo": "23bcs050",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 69,
+        "sessions": {
+          "lec1": 72,
+          "lec2": 99,
+          "lec3": 51,
+          "lec4": 98,
+          "lec5": 93
+        }
+      }
+    },
+    {
+      "userId": "7038179",
+      "name": "PRATYUSH KUMAR IIIT Dharwad",
+      "ccUsername": "pratyushkr04",
+      "rollNo": "23BCS099",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038202",
+      "name": "AVISHI AGRAWAL",
+      "ccUsername": "avishi_0309",
+      "rollNo": "23bds074",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 20,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 7,
+        "week2Avg": 0,
+        "overall": 7
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec1": 7
+        }
+      }
+    },
+    {
+      "userId": "7038221",
+      "name": "SHREE VATS IIIT Dharwad",
+      "ccUsername": "glam_turkey_83",
+      "rollNo": "23bds055",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038255",
+      "name": "ARNAV GUPTA IIIT Dharwad",
+      "ccUsername": "codeysuperio",
+      "rollNo": "23BDS009",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {
+          "lec4": 1
+        }
+      }
+    },
+    {
+      "userId": "7038277",
+      "name": "SHOUVIK DAS IIIT Dharwad",
+      "ccUsername": "shouvik_das",
+      "rollNo": "23bcs125",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 20,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 37,
+        "week2Avg": 0,
+        "overall": 37
+      },
+      "attendance": {
+        "totalPercentageAvg": 67,
+        "sessions": {
+          "lec0": 29,
+          "lec1": 84,
+          "lec2": 84,
+          "lec3": 74,
+          "lec4": 42,
+          "lec5": 89
+        }
+      }
+    },
+    {
+      "userId": "7038332",
+      "name": "mokshagna",
+      "ccUsername": "sophia_123",
+      "rollNo": "23bcs056",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 3,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 30,
+        "week2Avg": 1,
+        "overall": 30
+      },
+      "attendance": {
+        "totalPercentageAvg": 75,
+        "sessions": {
+          "lec1": 92,
+          "lec2": 95,
+          "lec3": 94,
+          "lec4": 79,
+          "lec5": 91
+        }
+      }
+    },
+    {
+      "userId": "7038343",
+      "name": "Piyush Maurya",
+      "ccUsername": "vigil_trek97",
+      "rollNo": "23bcs097",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038383",
+      "name": "HARI PRASAD L IIIT Dharwad",
+      "ccUsername": "bhoko_3103",
+      "rollNo": "23BDS022",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038419",
+      "name": "DAWARE GANESH DIGAMBAR IIIT Dharwad",
+      "ccUsername": "ganesh23bcs038",
+      "rollNo": "23bcs038",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038597",
+      "name": "Neeraj Rahul Nair",
+      "ccUsername": "angel_team_58",
+      "rollNo": "23bcs085",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7038600",
+      "name": "AYUSH SANJAY SINHA IIIT Dharwad",
+      "ccUsername": "inifinitvoid42",
+      "rollNo": "23bec008",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 10,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 33,
+        "week2Avg": 0,
+        "overall": 33
+      },
+      "attendance": {
+        "totalPercentageAvg": 8,
+        "sessions": {
+          "lec0": 49
+        }
+      }
+    },
+    {
+      "userId": "7038620",
+      "name": "PRAKHAR IIIT Dharwad",
+      "ccUsername": "prakhar335",
+      "rollNo": "23BEC037",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 60,
+        "prefixSums": 21,
+        "twoPointers": 29,
+        "linkedLists": 7,
+        "stacks": 4,
+        "sorting": 0,
+        "week1Avg": 57,
+        "week2Avg": 10,
+        "overall": 57
+      },
+      "attendance": {
+        "totalPercentageAvg": 54,
+        "sessions": {
+          "lec0": 68,
+          "lec1": 86,
+          "lec3": 88,
+          "lec5": 84
+        }
+      }
+    },
+    {
+      "userId": "7039462",
+      "name": "ALOK KUMAR DAS IIIT Dharwad",
+      "ccUsername": "alok_ccf_26",
+      "rollNo": "23bcs010",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 93,
+        "sessions": {
+          "lec0": 86,
+          "lec1": 98,
+          "lec2": 98,
+          "lec3": 97,
+          "lec4": 86,
+          "lec5": 92
+        }
+      }
+    },
+    {
+      "userId": "7039501",
+      "name": "MOMIN M IIIT Dharwad",
+      "ccUsername": "mominiiitdwd",
+      "rollNo": "23bds036",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 50,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 17,
+        "week2Avg": 0,
+        "overall": 17
+      },
+      "attendance": {
+        "totalPercentageAvg": 4,
+        "sessions": {
+          "lec0": 19,
+          "lec1": 4,
+          "lec3": 2
+        }
+      }
+    },
+    {
+      "userId": "7039529",
+      "name": "Yuvansh Chauhan",
+      "ccUsername": "yuvansh0211",
+      "rollNo": "23bcs139",
+      "modules": {
+        "timeComplexity": 11,
+        "arraysStringsSorting": 20,
+        "prefixSums": 7,
+        "twoPointers": 6,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 13,
+        "week2Avg": 2,
+        "overall": 13
+      },
+      "attendance": {
+        "totalPercentageAvg": 18,
+        "sessions": {
+          "lec0": 48,
+          "lec5": 60
+        }
+      }
+    },
+    {
+      "userId": "7039828",
+      "name": "Sadhgun Ram",
+      "ccUsername": "spinach_cutie4",
+      "rollNo": "23BEC014",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec5": 3
+        }
+      }
+    },
+    {
+      "userId": "7039831",
+      "name": "ATULESH SAHOO",
+      "ccUsername": "atulesh11",
+      "rollNo": "23BCS022",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 70,
+        "prefixSums": 0,
+        "twoPointers": 16,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 53,
+        "week2Avg": 4,
+        "overall": 53
+      },
+      "attendance": {
+        "totalPercentageAvg": 16,
+        "sessions": {
+          "lec0": 48,
+          "lec2": 18,
+          "lec3": 31
+        }
+      }
+    },
+    {
+      "userId": "7039833",
+      "name": "S K KEERTHI VARMAN IIIT Dharwad",
+      "ccUsername": "many_tomb_83",
+      "rollNo": "23bcs113",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7039850",
+      "name": "Palak",
+      "ccUsername": "epic_sail",
+      "rollNo": "23bds042",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7039854",
+      "name": "Ritik Kumar Shahi",
+      "ccUsername": "cry_hope_12",
+      "rollNo": "23bcs110",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7039862",
+      "name": "RAHUL CHHAJED IIIT Dharwad",
+      "ccUsername": "muster_wisp_06",
+      "rollNo": "23bcs103",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7039871",
+      "name": "M RAJU IIIT Dharwad",
+      "ccUsername": "raju_nayak_121",
+      "rollNo": "23BCS076",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 2,
+        "sessions": {
+          "lec5": 10
+        }
+      }
+    },
+    {
+      "userId": "7039984",
+      "name": "P B SHREYAS IIIT Dharwad",
+      "ccUsername": "blest_pine_63",
+      "rollNo": "23BDS041",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7039985",
+      "name": "Harsha Vardan",
+      "ccUsername": "harsha_25_a",
+      "rollNo": "23BDS015",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 0,
+        "prefixSums": 14,
+        "twoPointers": 3,
+        "linkedLists": 0,
+        "stacks": 4,
+        "sorting": 0,
+        "week1Avg": 35,
+        "week2Avg": 2,
+        "overall": 35
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7039994",
+      "name": "BODDEPALLI LAKSHMI VARA PRASAD IIIT Dharwad",
+      "ccUsername": "vara_23bcs034",
+      "rollNo": "23BCS034",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7040005",
+      "name": "ADITYA SHARMA IIIT Dharwad",
+      "ccUsername": "aditya5157",
+      "rollNo": "23bcs007",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7040032",
+      "name": "SAAGARIKA URAL S IIIT Dharwad",
+      "ccUsername": "saagarika_ural",
+      "rollNo": "23bec044",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 63,
+        "sessions": {
+          "lec1": 96,
+          "lec2": 90,
+          "lec3": 99,
+          "lec4": 94
+        }
+      }
+    },
+    {
+      "userId": "7040043",
+      "name": "YASH GURUDATTA BIRJE",
+      "ccUsername": "yash_birje_21",
+      "rollNo": "23bds070",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 60,
+        "prefixSums": 0,
+        "twoPointers": 3,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 20,
+        "week2Avg": 1,
+        "overall": 20
+      },
+      "attendance": {
+        "totalPercentageAvg": 18,
+        "sessions": {
+          "lec1": 71,
+          "lec2": 5,
+          "lec5": 30
+        }
+      }
+    },
+    {
+      "userId": "7040046",
+      "name": "AGGUNNA DILEEP IIIT Dharwad",
+      "ccUsername": "adileep_2006",
+      "rollNo": "23bec003",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7040091",
+      "name": "SIRIPALLI MANOJ KUMAR IIIT Dharwad",
+      "ccUsername": "flash_cloud_46",
+      "rollNo": "23bds056",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7040100",
+      "name": "DEEPENDRA KUMAR SINGH IIIT Dharwad",
+      "ccUsername": "coke_butter",
+      "rollNo": "23BCS039",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7040133",
+      "name": "P SHASANK PAVAN",
+      "ccUsername": "pavanmsd123",
+      "rollNo": "23BCS096",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7040141",
+      "name": "AMITH MATHEW IIIT Dharwad",
+      "ccUsername": "soon_violet_19",
+      "rollNo": "23BEC005",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec1": 4
+        }
+      }
+    },
+    {
+      "userId": "7040154",
+      "name": "ATHARVA AGRAWAL IIIT Dharwad",
+      "ccUsername": "atharva_08",
+      "rollNo": "23BDS010",
+      "modules": {
+        "timeComplexity": 90,
+        "arraysStringsSorting": 60,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 50,
+        "week2Avg": 0,
+        "overall": 50
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7040171",
+      "name": "MOHD IBRAHIM IIIT Dharwad",
+      "ccUsername": "sorcesstarks",
+      "rollNo": "23bcs084",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7040358",
+      "name": "HAMMAD MALIK IIIT Dharwad",
+      "ccUsername": "malik_44",
+      "rollNo": "23bcs052",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 9,
+        "sessions": {
+          "lec0": 53
+        }
+      }
+    },
+    {
+      "userId": "7040405",
+      "name": "KARAN KABDAL IIIT Dharwad",
+      "ccUsername": "fresh_stone_96",
+      "rollNo": "23bds028",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7043187",
+      "name": "Ausula Koustubh",
+      "ccUsername": "tony_stank_118",
+      "rollNo": "23bcs023",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7043190",
+      "name": "SHRIYANS K IIIT",
+      "ccUsername": "shriyans_k24",
+      "rollNo": "23BCS064",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7043191",
+      "name": "RUTWIK S IIIT Dharwad",
+      "ccUsername": "quasi_sage_56",
+      "rollNo": "23bcs112",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 60,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 20,
+        "week2Avg": 0,
+        "overall": 20
+      },
+      "attendance": {
+        "totalPercentageAvg": 2,
+        "sessions": {
+          "lec0": 2,
+          "lec1": 1,
+          "lec3": 6
+        }
+      }
+    },
+    {
+      "userId": "7043197",
+      "name": "YOGESHGOUDA PATIL IIIT Dharwad",
+      "ccUsername": "canny_apple_28",
+      "rollNo": "23bcs138",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7043199",
+      "name": "Shardendu Sankritya Mishra",
+      "ccUsername": "ssm22",
+      "rollNo": "23bcs122",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 2,
+        "sessions": {
+          "lec1": 9,
+          "lec3": 3
+        }
+      }
+    },
+    {
+      "userId": "7043201",
+      "name": "RODRIGUES SIMONE JOHN IIIT Dharwad",
+      "ccUsername": "simonelikesyou",
+      "rollNo": "23bcs111",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {
+          "lec2": 2
+        }
+      }
+    },
+    {
+      "userId": "7043205",
+      "name": "SIRIGIREDDY SIVA TEJANANDA REDDY IIIT Dharwad",
+      "ccUsername": "sivateja007",
+      "rollNo": "23bec053",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7043241",
+      "name": "KOTA SANJAY VEDA IIIT Dharwad",
+      "ccUsername": "sanjayvedakota",
+      "rollNo": "23bcs069",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7043244",
+      "name": "VISHAVJEET IIIT Dharwad",
+      "ccUsername": "vishuu_27",
+      "rollNo": "23bds069",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7043421",
+      "name": "VISHESH DWIVEDI IIIT Dharwad",
+      "ccUsername": "engineer_fit",
+      "rollNo": "23BCS135",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {
+          "lec1": 1
+        }
+      }
+    },
+    {
+      "userId": "7044232",
+      "name": "likhithkagitha",
+      "ccUsername": "fine_truth_45",
+      "rollNo": "23bcs061",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7064612",
+      "name": "SHRIKANT SURESH GANGANNAVAR IIIT Dharwad",
+      "ccUsername": "nice_rustle_51",
+      "rollNo": "23BEC051",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec0": 8
+        }
+      }
+    },
+    {
+      "userId": "7073302",
+      "name": "Shaik Izhaar Ahmed",
+      "ccUsername": "iiitdw23bds053",
+      "rollNo": "23BDS053",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 17,
+        "sessions": {
+          "lec0": 45,
+          "lec5": 59
+        }
+      }
+    },
+    {
+      "userId": "7073303",
+      "name": "Advait pathak",
+      "ccUsername": "iiitdw23bcs094",
+      "rollNo": "23bcs094",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 61,
+        "sessions": {
+          "lec0": 54,
+          "lec2": 87,
+          "lec3": 92,
+          "lec4": 70,
+          "lec5": 60
+        }
+      }
+    },
+    {
+      "userId": "7073305",
+      "name": "PUDI THRIVIKRAM",
+      "ccUsername": "iiitdw23bcs100",
+      "rollNo": "23BCS100",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7073306",
+      "name": "Nuthan K",
+      "ccUsername": "iiitdw23bcs088",
+      "rollNo": "23bcs088",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 5,
+        "sessions": {
+          "lec1": 32
+        }
+      }
+    },
+    {
+      "userId": "7073307",
+      "name": "Sadanala Sasi Rekha",
+      "ccUsername": "iiitdw23bds049",
+      "rollNo": "23BDS049",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 40,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 13,
+        "week2Avg": 0,
+        "overall": 13
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7073308",
+      "name": "Katta Avaneesh Rao",
+      "ccUsername": "iiitdw23bcs065",
+      "rollNo": "23bcs065",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7073309",
+      "name": "Vinay Kumar",
+      "ccUsername": "iiitdw23bcs134",
+      "rollNo": "23BCS134",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 3,
+        "sessions": {
+          "lec1": 17
+        }
+      }
+    },
+    {
+      "userId": "7073310",
+      "name": "Divyanshu",
+      "ccUsername": "iiitdw23bec017",
+      "rollNo": "23bec017",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7073311",
+      "name": "Om Mishra",
+      "ccUsername": "iiitdw23bec035",
+      "rollNo": "23bec035",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7073312",
+      "name": "Sanskar",
+      "ccUsername": "iiitdw23bec045",
+      "rollNo": "23bec045",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 12,
+        "sessions": {
+          "lec2": 74
+        }
+      }
+    },
+    {
+      "userId": "7073314",
+      "name": "ashish singh",
+      "ccUsername": "iiitdw23bcs019",
+      "rollNo": "23bcs019",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    },
+    {
+      "userId": "7073315",
+      "name": "Savya Sanchi Sharma",
+      "ccUsername": "savya_sanchi",
+      "rollNo": "23bds052",
+      "modules": {
+        "timeComplexity": 0,
+        "arraysStringsSorting": 0,
+        "prefixSums": 0,
+        "twoPointers": 0,
+        "linkedLists": 0,
+        "stacks": 0,
+        "sorting": 0,
+        "week1Avg": 0,
+        "week2Avg": 0,
+        "overall": 0
+      },
+      "attendance": {
+        "totalPercentageAvg": 0,
+        "sessions": {}
+      }
+    }
+  ]
+}

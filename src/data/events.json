@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-06-02",
+    "title": "Post LeetCode Contest Discussion & Team Meeting",
+    "type": "closed",
+    "participants": "-",
+    "notes": ["Discussed contest problems.", "Team alignment meeting."]
+  },
+  {
+    "date": "2026-06-03",
+    "title": "Address to ECE Students",
+    "type": "open",
+    "participants": "35-40",
+    "notes": ["Time: 5:30 PM - 6:30 PM", "Conducted alongside Anbalgan Sir."]
+  },
+  {
+    "date": "2026-06-04",
+    "title": "CodeChef & Coursework Planning",
+    "type": "closed",
+    "participants": "-",
+    "notes": ["Indulged in CodeChef problems.", "Planning for structured coursework."]
+  },
+  {
+    "date": "2026-06-05",
+    "title": "CGC Meeting",
+    "type": "closed",
+    "participants": "-",
+    "notes": ["Time: 12:00 PM - 1:00 PM", "Meeting led by Anbalgan Sir."]
+  },
+  {
+    "date": "2026-06-05",
+    "title": "LeetCode Post Contest Discussion",
+    "type": "open",
+    "participants": "30-35",
+    "notes": ["Time: 9:30 PM - 11:30 PM", "Deep dive into contest solutions."]
+  },
+  {
+    "date": "2026-06-06",
+    "title": "Curriculum Strategy Meeting",
+    "type": "closed",
+    "participants": "-",
+    "notes": ["Meeting with Manjunath Sir and Club President.", "Strengthening the structured training curriculum."]
+  },
+  {
+    "date": "2026-06-08",
+    "title": "Return 0 Club Alignment",
+    "type": "closed",
+    "participants": "-",
+    "notes": ["Time: 1:00 PM - 1:45 PM", "Session with Return 0 Club President.", "Understanding the 3rd year coding culture."]
+  },
+  {
+    "date": "2026-06-09",
+    "title": "Mock Scheduling & Contest Prep",
+    "type": "closed",
+    "participants": "-",
+    "notes": ["Time: 10:00 AM - 10:30 AM", "Close session regarding mock scheduling and post-contest discussion."]
+  },
+  {
+    "date": "2026-06-10",
+    "title": "POTD Team Meeting & Sessions",
+    "type": "closed",
+    "participants": "-",
+    "notes": ["Problem of the Day team alignment and execution."]
+  },
+  {
+    "date": "2026-06-12",
+    "title": "CGC Meeting",
+    "type": "closed",
+    "participants": "-",
+    "notes": ["Time: 12:00 PM - 1:00 PM", "Meeting led by Anbalgan Sir."]
+  },
+  {
+    "date": "2026-06-12",
+    "title": "LeetCode Post Contest Discussion",
+    "type": "open",
+    "participants": "-",
+    "notes": ["Time: 9:30 PM - 11:30 PM", "Deep dive into contest solutions."]
+  }
+]
