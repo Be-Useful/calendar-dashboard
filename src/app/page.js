@@ -1,8 +1,10 @@
 "use client";
 import React, { useState, useMemo } from 'react';
 import dashboardData from '@/data/dashboard_data.json';
-import { Users, BookOpen, CalendarCheck, Search, Trophy, ArrowUpDown, ChevronRight, ChevronLeft } from 'lucide-react';
+import { Users, BookOpen, CalendarCheck, Search, Trophy, ArrowUpDown, ChevronRight, ChevronLeft, Download, Maximize2, X } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
+import * as XLSX from 'xlsx';
+import html2canvas from 'html2canvas';
 
 const WEEK1_TOPICS = "Time Complexity, Arrays/Strings/Sorting, Prefix Sums";
 const WEEK2_TOPICS = "Sorting, Two Pointers, Linked Lists, Stacks & Queues";
@@ -31,13 +33,22 @@ function computeDistribution(students, getter) {
   ];
 }
 
-function MiniDonut({ data, label }) {
+function MiniDonut({ data, label, onEnlarge }) {
   return (
-    <div className="mini-donut-card">
+    <div className="mini-donut-card" style={{ position: 'relative' }}>
+      <button 
+        onClick={() => onEnlarge({ data, label })}
+        style={{ position: 'absolute', top: '10px', right: '10px', background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', zIndex: 10, transition: 'color 0.2s' }}
+        onMouseEnter={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
+        onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}
+        title="Enlarge Chart"
+      >
+        <Maximize2 size={16} />
+      </button>
       <h4 className="mini-donut-label">{label}</h4>
       <div className="mini-donut-row">
         <div className="mini-donut-chart">
-          <ResponsiveContainer width={90} height={90}>
+          <ResponsiveContainer width={90} height={90} minWidth={1} minHeight={1}>
             <PieChart>
               <Pie data={data} dataKey="value" innerRadius={25} outerRadius={40} paddingAngle={3} stroke="none">
                 {data.map((entry, i) => <Cell key={i} fill={entry.color} />)}
@@ -59,12 +70,70 @@ function MiniDonut({ data, label }) {
   );
 }
 
+function ChartModal({ chart, onClose }) {
+  if (!chart) return null;
+
+  const handleDownload = async () => {
+    const el = document.getElementById("enlarged-chart-container");
+    if (!el) return;
+    try {
+      const canvas = await html2canvas(el, { backgroundColor: '#050505', scale: 2 });
+      const dataUrl = canvas.toDataURL("image/png");
+      const link = document.createElement("a");
+      link.download = `${chart.label.replace(/\s+/g, '_').toLowerCase()}.png`;
+      link.href = dataUrl;
+      link.click();
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  return (
+    <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.85)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', backdropFilter: 'blur(5px)' }}>
+      <div style={{ background: 'var(--bg-secondary)', padding: '2rem', borderRadius: '16px', border: '1px solid var(--border-color)', position: 'relative', minWidth: '500px', maxWidth: '90vw' }}>
+        <button onClick={onClose} style={{ position: 'absolute', top: '15px', right: '15px', background: 'rgba(255,255,255,0.1)', border: 'none', color: '#fff', cursor: 'pointer', borderRadius: '50%', width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'background 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.2)'} onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.1)'}>
+          <X size={18} />
+        </button>
+        
+        <div id="enlarged-chart-container" style={{ padding: '2.5rem', background: '#050505', borderRadius: '12px', textAlign: 'center' }}>
+          <h2 style={{ marginBottom: '2rem', color: '#fff', fontFamily: 'Outfit, sans-serif', fontSize: '1.8rem' }}>{chart.label}</h2>
+          <div style={{ height: '300px', width: '100%' }}>
+            <ResponsiveContainer width="100%" height="100%" minWidth={1} minHeight={1}>
+              <PieChart>
+                <Pie data={chart.data} dataKey="value" innerRadius={80} outerRadius={120} paddingAngle={2} stroke="none">
+                  {chart.data.map((entry, i) => <Cell key={i} fill={entry.color} />)}
+                </Pie>
+                <Tooltip formatter={(v) => `${v} students`} contentStyle={{ background: '#1e1e2f', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, color: '#fff' }} />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', marginTop: '2rem', flexWrap: 'wrap' }}>
+            {chart.data.map((d, i) => (
+              <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <span style={{ width: '14px', height: '14px', borderRadius: '50%', background: d.color, display: 'inline-block' }}></span>
+                <span style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>{d.name}: <strong style={{ color: '#fff' }}>{d.value}</strong></span>
+              </div>
+            ))}
+          </div>
+        </div>
+        
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
+          <button onClick={handleDownload} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'linear-gradient(135deg, var(--accent-blue), var(--accent-purple))', border: 'none', color: '#fff', padding: '0.75rem 2rem', borderRadius: '30px', cursor: 'pointer', fontSize: '1.05rem', fontWeight: 'bold', transition: 'transform 0.2s', boxShadow: '0 4px 15px rgba(139, 92, 246, 0.4)' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-2px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
+            <Download size={18} /> Download This Chart
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function AdminDashboard() {
   const [activeTab, setActiveTab] = useState('performance');
   const [searchTerm, setSearchTerm] = useState('');
   const [sortConfig, setSortConfig] = useState({ key: 'overall', direction: 'desc' });
   const [expandWeek1, setExpandWeek1] = useState(true);
   const [expandWeek2, setExpandWeek2] = useState(true);
+  const [enlargedChart, setEnlargedChart] = useState(null);
 
   const sessionNames = useMemo(() => {
     return Object.keys(dashboardData.sessionStats || {}).sort();
@@ -126,6 +195,53 @@ export default function AdminDashboard() {
 
   const attDist = useMemo(() => computeDistribution(dashboardData.students, s => s.attendance.totalPercentageAvg), []);
   const modDist = useMemo(() => computeDistribution(dashboardData.students, s => s.modules.week1Avg), []);
+  const overallDist = useMemo(() => computeDistribution(dashboardData.students, s => s.modules.overall), []);
+
+  const handleExportExcel = () => {
+    const exportData = dashboardData.students.map(s => {
+      const row = {
+        Name: s.name,
+        Username: s.ccUsername,
+        RollNo: s.rollNo,
+        "Overall Module %": s.modules.overall,
+        "Week 1 Avg %": s.modules.week1Avg,
+        "Week 2 Avg %": s.modules.week2Avg,
+        "Overall Attendance %": s.attendance.totalPercentageAvg,
+        "Time Cmplx": s.modules.timeComplexity,
+        "Arr/Str/Sort": s.modules.arraysStringsSorting,
+        "Prefix Sums": s.modules.prefixSums,
+        "Two Pointers": s.modules.twoPointers,
+        "Linked Lists": s.modules.linkedLists,
+        "Stacks": s.modules.stacks,
+        "Sorting": s.modules.sorting
+      };
+      return row;
+    });
+
+    const worksheet = XLSX.utils.json_to_sheet(exportData);
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Dashboard Report");
+    XLSX.writeFile(workbook, "Dashboard_Metrics_Report.xlsx");
+  };
+
+  const handleDownloadCharts = async () => {
+    const chartSection = document.getElementById("distribution-charts-section");
+    if (!chartSection) return;
+    
+    try {
+      const canvas = await html2canvas(chartSection, {
+        backgroundColor: '#050505', // Match background
+        scale: 2 // Better resolution
+      });
+      const dataUrl = canvas.toDataURL("image/png");
+      const link = document.createElement("a");
+      link.download = "dashboard_charts.png";
+      link.href = dataUrl;
+      link.click();
+    } catch (err) {
+      console.error("Failed to download charts", err);
+    }
+  };
 
   const pct = (val) => {
     if (val === undefined || val === null || val === 0 || val === '0')
@@ -141,12 +257,22 @@ export default function AdminDashboard() {
 
   return (
     <div className="admin-dashboard">
-      <header className="dashboard-header">
+      <header className="dashboard-header" style={{ flexWrap: 'wrap', gap: '1rem' }}>
         <div>
           <h1 className="title-gradient">CodeChef Program Overview</h1>
           <p className="subtitle">Consolidated view of Student Engagement &amp; Performance</p>
         </div>
-        <div className="last-updated" suppressHydrationWarning>Last Updated: {new Date(dashboardData.lastUpdated).toLocaleString()}</div>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.75rem' }}>
+          <div className="last-updated" suppressHydrationWarning>Last Updated: {new Date(dashboardData.lastUpdated).toLocaleString()}</div>
+          <div style={{ display: 'flex', gap: '0.75rem' }}>
+            <button onClick={handleDownloadCharts} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(255,255,255,0.1)', border: '1px solid var(--border-color)', color: '#fff', padding: '0.5rem 1rem', borderRadius: '8px', cursor: 'pointer', fontSize: '0.9rem', transition: 'all 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'} onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.1)'}>
+              <Download size={16} /> Save Charts (PNG)
+            </button>
+            <button onClick={handleExportExcel} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'linear-gradient(135deg, var(--accent-blue), var(--accent-purple))', border: 'none', color: '#fff', padding: '0.5rem 1rem', borderRadius: '8px', cursor: 'pointer', fontSize: '0.9rem', fontWeight: 'bold', transition: 'transform 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-2px)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
+              <Download size={16} /> Export Data (Excel)
+            </button>
+          </div>
+        </div>
       </header>
 
       {/* KPI Section */}
@@ -168,10 +294,13 @@ export default function AdminDashboard() {
       </section>
 
       {/* Distribution Charts */}
-      <section className="distribution-row">
-        <MiniDonut data={attDist} label="Attendance Distribution" />
-        <MiniDonut data={modDist} label="Week 1 Module Completion" />
+      <section className="distribution-row" id="distribution-charts-section" style={{ padding: '1rem', background: 'var(--bg-secondary)', borderRadius: '16px', border: '1px solid var(--border-color)' }}>
+        <MiniDonut data={attDist} label="Attendance Distribution" onEnlarge={setEnlargedChart} />
+        <MiniDonut data={modDist} label="Week 1 Module Completion" onEnlarge={setEnlargedChart} />
+        <MiniDonut data={overallDist} label="Overall Performance" onEnlarge={setEnlargedChart} />
       </section>
+
+      <ChartModal chart={enlargedChart} onClose={() => setEnlargedChart(null)} />
 
       {/* Tabs */}
       <div className="tabs-container">
