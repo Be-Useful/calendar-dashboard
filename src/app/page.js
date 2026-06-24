@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useMemo } from 'react';
 import dashboardData from '@/data/dashboard_data.json';
-import { Users, BookOpen, CalendarCheck, Search, Trophy, ArrowUpDown, ChevronRight, ChevronLeft, Download, Maximize2, X } from 'lucide-react';
+import { Users, BookOpen, CalendarCheck, Search, Trophy, ArrowUpDown, ChevronRight, ChevronLeft, Download, Maximize2, X, Swords } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import * as XLSX from 'xlsx';
 import html2canvas from 'html2canvas';
@@ -16,6 +16,22 @@ const DIST_COLORS = {
   high: '#10b981'
 };
 
+const CONTEST_COLORS = {
+  '80%+': '#10b981',
+  '60%+': '#3b82f6',
+  '40%+': '#f59e0b',
+  'Below 40%': '#ef4444',
+  'Unattempted': '#4b5563'
+};
+
+const CONTEST_LABELS = {
+  '80%+': '80%+',
+  '60%+': '60%+',
+  '40%+': '40%+',
+  'Below 40%': '<40%',
+  'Unattempted': 'Unattempted'
+};
+
 function computeDistribution(students, getter) {
   let zero = 0, low = 0, mid = 0, high = 0;
   students.forEach(s => {
@@ -25,12 +41,37 @@ function computeDistribution(students, getter) {
     else if (v < 60) mid++;
     else high++;
   });
+  const total = students.length || 1;
   return [
-    { name: '0%', value: zero, color: DIST_COLORS.zero },
-    { name: '1-29%', value: low, color: DIST_COLORS.low },
-    { name: '30-59%', value: mid, color: DIST_COLORS.mid },
-    { name: '60%+', value: high, color: DIST_COLORS.high },
+    { name: '0%', value: zero, pct: Math.round((zero/total)*100), color: DIST_COLORS.zero, icon: '⏸️' },
+    { name: '1-29%', value: low, pct: Math.round((low/total)*100), color: DIST_COLORS.low, icon: '📉' },
+    { name: '30-59%', value: mid, pct: Math.round((mid/total)*100), color: DIST_COLORS.mid, icon: '📊' },
+    { name: '60%+', value: high, pct: Math.round((high/total)*100), color: DIST_COLORS.high, icon: '🏆' },
   ];
+}
+
+function computeContestDistribution(contestName) {
+  const stats = dashboardData.contestStats?.[contestName];
+  if (!stats) return [];
+  const cats = stats.categories || {};
+  const total = dashboardData.totalStudents || 1;
+  const ICONS = {
+    '80%+': '🏆',
+    '60%+': '⭐',
+    '40%+': '📊',
+    'Below 40%': '📉',
+    'Unattempted': '⏸️'
+  };
+  return Object.entries(CONTEST_LABELS).map(([key, label]) => {
+    const val = cats[key] || 0;
+    return {
+      name: label,
+      value: val,
+      pct: Math.round((val/total)*100),
+      color: CONTEST_COLORS[key],
+      icon: ICONS[key]
+    };
+  }).filter(d => d.value > 0);
 }
 
 function MiniDonut({ data, label, onEnlarge }) {
@@ -59,9 +100,12 @@ function MiniDonut({ data, label, onEnlarge }) {
         </div>
         <div className="mini-donut-legend">
           {data.map((d, i) => (
-            <div key={i} className="legend-item">
+            <div key={i} className="legend-item" style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', marginBottom: '0.3rem' }}>
               <span className="legend-dot" style={{ background: d.color }}></span>
-              <span className="legend-text">{d.name}: <strong>{d.value}</strong></span>
+              <span className="legend-text" style={{ display: 'flex', alignItems: 'center', gap: '0.2rem', fontSize: '0.8rem' }}>
+                <span style={{ fontSize: '1rem' }}>{d.icon}</span> 
+                {d.name}: <strong>{d.pct}%</strong>
+              </span>
             </div>
           ))}
         </div>
@@ -111,7 +155,9 @@ function ChartModal({ chart, onClose }) {
             {chart.data.map((d, i) => (
               <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span style={{ width: '14px', height: '14px', borderRadius: '50%', background: d.color, display: 'inline-block' }}></span>
-                <span style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>{d.name}: <strong style={{ color: '#fff' }}>{d.value}</strong></span>
+                <span style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                  <span>{d.icon}</span> {d.name}: <strong style={{ color: '#fff' }}>{d.pct}% of class</strong>
+                </span>
               </div>
             ))}
           </div>
@@ -127,6 +173,25 @@ function ChartModal({ chart, onClose }) {
   );
 }
 
+function ContestCategoryBadge({ category, problemsSolved }) {
+  const colorMap = {
+    '80%+': 'badge-contest-80',
+    '60%+': 'badge-contest-60',
+    '40%+': 'badge-contest-40',
+    'Below 40%': 'badge-contest-below',
+    'Unattempted': 'badge-contest-unattempted'
+  };
+  const cls = colorMap[category] || 'badge-contest-unattempted';
+  return (
+    <div className="contest-cell-content">
+      <span className={`badge ${cls}`}>{problemsSolved}</span>
+      {category !== 'Unattempted' && (
+        <span className="contest-category-label">{category}</span>
+      )}
+    </div>
+  );
+}
+
 export default function AdminDashboard() {
   const [activeTab, setActiveTab] = useState('performance');
   const [searchTerm, setSearchTerm] = useState('');
@@ -137,6 +202,10 @@ export default function AdminDashboard() {
 
   const sessionNames = useMemo(() => {
     return Object.keys(dashboardData.sessionStats || {}).sort();
+  }, []);
+
+  const contestNames = useMemo(() => {
+    return Object.keys(dashboardData.contestStats || {}).sort();
   }, []);
 
   const week1Sessions = sessionNames.filter(s => {
@@ -184,6 +253,17 @@ export default function AdminDashboard() {
         else if (sortConfig.key === 'week1Avg') { aV = a.modules.week1Avg; bV = b.modules.week1Avg; }
         else if (sortConfig.key === 'week2Avg') { aV = a.modules.week2Avg; bV = b.modules.week2Avg; }
         else if (sessionNames.includes(sortConfig.key)) { aV = a.attendance.sessions[sortConfig.key] || 0; bV = b.attendance.sessions[sortConfig.key] || 0; }
+        else if (sortConfig.key.startsWith('contest_score_')) {
+          const cn = sortConfig.key.replace('contest_score_', '');
+          aV = a.contest?.[cn]?.score ?? -1;
+          bV = b.contest?.[cn]?.score ?? -1;
+        }
+        else if (sortConfig.key.startsWith('contest_cat_')) {
+          const cn = sortConfig.key.replace('contest_cat_', '');
+          const catOrder = { '80%+': 5, '60%+': 4, '40%+': 3, 'Below 40%': 2, 'Unattempted': 1 };
+          aV = catOrder[a.contest?.[cn]?.category] || 0;
+          bV = catOrder[b.contest?.[cn]?.category] || 0;
+        }
         else { aV = a.modules[sortConfig.key]; bV = b.modules[sortConfig.key]; }
         if (aV < bV) return sortConfig.direction === 'asc' ? -1 : 1;
         if (aV > bV) return sortConfig.direction === 'asc' ? 1 : -1;
@@ -196,6 +276,13 @@ export default function AdminDashboard() {
   const attDist = useMemo(() => computeDistribution(dashboardData.students, s => s.attendance.totalPercentageAvg), []);
   const modDist = useMemo(() => computeDistribution(dashboardData.students, s => s.modules.week1Avg), []);
   const overallDist = useMemo(() => computeDistribution(dashboardData.students, s => s.modules.overall), []);
+  const contestDists = useMemo(() => {
+    const dists = {};
+    contestNames.forEach(cn => {
+      dists[cn] = computeContestDistribution(cn);
+    });
+    return dists;
+  }, [contestNames]);
 
   const handleExportExcel = () => {
     const exportData = dashboardData.students.map(s => {
@@ -215,6 +302,13 @@ export default function AdminDashboard() {
         "Stacks": s.modules.stacks,
         "Sorting": s.modules.sorting
       };
+      // Add contest data
+      contestNames.forEach(cn => {
+        const c = s.contest?.[cn];
+        row[`${cn} Score`] = c?.score ?? 0;
+        row[`${cn} Problems`] = c?.problemsSolved ?? '—';
+        row[`${cn} Category`] = c?.category ?? 'Unattempted';
+      });
       return row;
     });
 
@@ -230,8 +324,8 @@ export default function AdminDashboard() {
     
     try {
       const canvas = await html2canvas(chartSection, {
-        backgroundColor: '#050505', // Match background
-        scale: 2 // Better resolution
+        backgroundColor: '#050505',
+        scale: 2
       });
       const dataUrl = canvas.toDataURL("image/png");
       const link = document.createElement("a");
@@ -254,6 +348,53 @@ export default function AdminDashboard() {
   const sortIcon = (key) => (
     <ArrowUpDown size={14} className="sort-icon" style={{ opacity: sortConfig.key === key ? 1 : 0.3 }} />
   );
+
+  // Score summary section for contest tab
+  const renderScoreSummary = (contestName) => {
+    const stats = dashboardData.contestStats?.[contestName];
+    if (!stats) return null;
+    const cats = stats.categories || {};
+    const total = dashboardData.totalStudents;
+    const participated = stats.totalParticipants;
+    
+    const summaryItems = [
+      { label: '80%+', key: '80%+', color: '#10b981', icon: '🏆' },
+      { label: '60%+', key: '60%+', color: '#3b82f6', icon: '⭐' },
+      { label: '40%+', key: '40%+', color: '#f59e0b', icon: '📊' },
+      { label: '<40%', key: 'Below 40%', color: '#ef4444', icon: '📉' },
+      { label: 'Unattempted', key: 'Unattempted', color: '#4b5563', icon: '⏸️' },
+    ];
+
+    return (
+      <div className="contest-score-summary">
+        <div className="score-summary-header">
+          <h3>Score Breakdown — {contestName.replace('contest', 'Contest ')}</h3>
+          <div className="score-summary-meta">
+            <span className="meta-pill"><strong>{participated}</strong> participated</span>
+            <span className="meta-pill"><strong>{total - participated}</strong> absent</span>
+            <span className="meta-pill total">Total: <strong>{total}</strong></span>
+          </div>
+        </div>
+        <div className="score-cards-grid">
+          {summaryItems.map(item => {
+            const count = cats[item.key] || 0;
+            const pctVal = total > 0 ? Math.round((count / total) * 100) : 0;
+            return (
+              <div key={item.key} className="score-summary-card" style={{ borderColor: item.color + '40' }}>
+                <div className="score-card-icon">{item.icon}</div>
+                <div className="score-card-count" style={{ color: item.color }}>{count}</div>
+                <div className="score-card-label">{item.label}</div>
+                <div className="score-card-bar-track">
+                  <div className="score-card-bar-fill" style={{ width: `${pctVal}%`, background: item.color }}></div>
+                </div>
+                <div className="score-card-pct">{pctVal}% of class</div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div className="admin-dashboard">
@@ -291,13 +432,29 @@ export default function AdminDashboard() {
             <p className="kpi-value" style={{ fontSize: '1.4rem' }}>{totalHours}hrs <span style={{fontSize: '0.9rem', color: 'var(--text-secondary)'}}>{sessionNames.length} sessions</span></p>
           </div>
         </div>
+        {contestNames.length > 0 && (
+          <div className="kpi-card">
+            <div className="kpi-icon-wrapper purple"><Swords size={24} /></div>
+            <div className="kpi-info">
+              <h3>Contests</h3>
+              <p className="kpi-value" style={{ fontSize: '1.4rem' }}>{contestNames.length} <span style={{fontSize: '0.9rem', color: 'var(--text-secondary)'}}>{dashboardData.contestStats?.[contestNames[contestNames.length - 1]]?.totalParticipants || 0} participated</span></p>
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Distribution Charts */}
       <section className="distribution-row" id="distribution-charts-section" style={{ padding: '1rem', background: 'var(--bg-secondary)', borderRadius: '16px', border: '1px solid var(--border-color)' }}>
         <MiniDonut data={attDist} label="Attendance Distribution" onEnlarge={setEnlargedChart} />
         <MiniDonut data={modDist} label="Week 1 Module Completion" onEnlarge={setEnlargedChart} />
-        <MiniDonut data={overallDist} label="Overall Performance" onEnlarge={setEnlargedChart} />
+        {contestNames.map(cn => (
+          <MiniDonut 
+            key={cn} 
+            data={contestDists[cn]} 
+            label={`${cn.replace('contest', 'Contest ')} Distribution`} 
+            onEnlarge={setEnlargedChart} 
+          />
+        ))}
       </section>
 
       <ChartModal chart={enlargedChart} onClose={() => setEnlargedChart(null)} />
@@ -310,12 +467,22 @@ export default function AdminDashboard() {
         <button className={`tab-btn ${activeTab === 'attendance' ? 'active' : ''}`} onClick={() => setActiveTab('attendance')}>
           <CalendarCheck size={18} /> Session Attendance
         </button>
+        <button className={`tab-btn ${activeTab === 'contest' ? 'active' : ''}`} onClick={() => setActiveTab('contest')}>
+          <Swords size={18} /> Contest Performance
+        </button>
       </div>
+
+      {/* Contest Score Summary Section */}
+      {activeTab === 'contest' && contestNames.map(cn => (
+        <div key={cn} style={{ marginBottom: '2rem' }}>
+          {renderScoreSummary(cn)}
+        </div>
+      ))}
 
       {/* Table */}
       <section className="table-section">
         <div className="table-header-controls">
-          <h2>{activeTab === 'performance' ? 'Module Completion Tracker' : 'Daily Session Tracker'}</h2>
+          <h2>{activeTab === 'performance' ? 'Module Completion Tracker' : activeTab === 'attendance' ? 'Daily Session Tracker' : 'Contest Results'}</h2>
           <div className="search-wrapper">
             <Search size={18} className="search-icon" />
             <input type="text" placeholder="Search by name, roll no or username..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="search-input" />
@@ -373,6 +540,21 @@ export default function AdminDashboard() {
                         <div className="week-topics">{WEEK2_TOPICS}</div>
                       </th>
                     )}
+                  </>
+                )}
+
+                {activeTab === 'contest' && (
+                  <>
+                    {contestNames.map(cn => (
+                      <React.Fragment key={cn}>
+                        <th rowSpan="2" onClick={() => requestSort(`contest_score_${cn}`)} className="sortable" style={{ textAlign: 'center' }}>
+                          {cn.replace('contest', 'C')} Score {sortIcon(`contest_score_${cn}`)}
+                        </th>
+                        <th rowSpan="2" onClick={() => requestSort(`contest_cat_${cn}`)} className="sortable" style={{ textAlign: 'center' }}>
+                          {cn.replace('contest', 'C')} Problems {sortIcon(`contest_cat_${cn}`)}
+                        </th>
+                      </React.Fragment>
+                    ))}
                   </>
                 )}
               </tr>
@@ -456,6 +638,31 @@ export default function AdminDashboard() {
                       <td className="overall-cell">{pct(student.attendance.totalPercentageAvg)}</td>
                       {week1Sessions.map(s => <td key={s}>{pct(student.attendance.sessions[s] || 0)}</td>)}
                       {week2Sessions.map(s => <td key={s}>{pct(student.attendance.sessions[s] || 0)}</td>)}
+                    </>
+                  )}
+
+                  {activeTab === 'contest' && (
+                    <>
+                      {contestNames.map(cn => {
+                        const c = student.contest?.[cn];
+                        return (
+                          <React.Fragment key={cn}>
+                            <td style={{ textAlign: 'center' }}>
+                              {c?.category === 'Unattempted' ? (
+                                <span className="badge badge-contest-unattempted">—</span>
+                              ) : (
+                                <span className="contest-score-value">{c?.score ?? 0}<span className="contest-score-total">/{c?.totalScore ?? 1500}</span></span>
+                              )}
+                            </td>
+                            <td style={{ textAlign: 'center' }}>
+                              <ContestCategoryBadge 
+                                category={c?.category || 'Unattempted'} 
+                                problemsSolved={c?.problemsSolved || '—'} 
+                              />
+                            </td>
+                          </React.Fragment>
+                        );
+                      })}
                     </>
                   )}
                 </tr>

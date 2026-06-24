@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:26:17.224Z",
+  "lastUpdated": "2026-06-24T13:08:26.287431Z",
   "totalStudents": 190,
   "averageAttendance": 16,
   "averagePracticeCompletion": 8,
@@ -33,6 +33,16 @@
       "facultyDuration": 251.48333333333332,
       "referenceDuration": 125.36666666666666,
       "studentsPresent": 54
+    },
+    "lec6": {
+      "facultyDuration": 126.62,
+      "referenceDuration": 126.63,
+      "studentsPresent": 48
+    },
+    "lec7": {
+      "facultyDuration": 222.28,
+      "referenceDuration": 122.28,
+      "studentsPresent": 52
     }
   },
   "students": [
@@ -56,11 +66,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4069928",
-      "name": "gujjavarshith",
+      "name": "GUJJA SRIVARSHITH RAO",
       "ccUsername": "gujjavarshith",
       "rollNo": "23bcs051",
       "modules": {
@@ -76,17 +94,25 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 16,
+        "totalPercentageAvg": 12,
         "sessions": {
           "lec1": 19,
           "lec2": 23,
           "lec5": 53
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4132525",
-      "name": "Siddhant Sinha",
+      "name": "SIDDHANT SINHA",
       "ccUsername": "sidsinha491",
       "rollNo": "23bec052",
       "modules": {
@@ -102,20 +128,30 @@
         "overall": 57
       },
       "attendance": {
-        "totalPercentageAvg": 88,
+        "totalPercentageAvg": 89,
         "sessions": {
           "lec0": 76,
           "lec1": 91,
           "lec2": 82,
           "lec3": 91,
           "lec4": 94,
-          "lec5": 94
+          "lec5": 94,
+          "lec6": 93,
+          "lec7": 90
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 100,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "4149208",
-      "name": "Anas Khan",
+      "name": "MOHD ANAS KHAN",
       "ccUsername": "code_x83",
       "rollNo": "23BCS083",
       "modules": {
@@ -131,15 +167,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 17,
+        "totalPercentageAvg": 12,
         "sessions": {
           "lec3": 100
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1500,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "4273388",
-      "name": "prajin2005",
+      "name": "PRAJIN A D",
       "ccUsername": "prajin2005",
       "rollNo": "23bec036",
       "modules": {
@@ -157,11 +201,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4288724",
-      "name": "sadan_kumar",
+      "name": "SADAN K",
       "ccUsername": "sadan_kumar",
       "rollNo": "23bds048",
       "modules": {
@@ -177,16 +229,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 8,
+        "totalPercentageAvg": 6,
         "sessions": {
           "lec0": 39,
           "lec3": 6
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "4370669",
-      "name": "hardikm21",
+      "name": "HARDIK MITTAL",
       "ccUsername": "hardikm21",
       "rollNo": "23BEC020",
       "modules": {
@@ -204,11 +264,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4423483",
-      "name": "sudh1404",
+      "name": "SUDHARSHANA SURYANARAYANAN",
       "ccUsername": "sudh1404",
       "rollNo": "23bds059",
       "modules": {
@@ -226,11 +294,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4423492",
-      "name": "Rishabh",
+      "name": "RISHABH VERMA",
       "ccUsername": "ris_9",
       "rollNo": "23bcs107",
       "modules": {
@@ -246,18 +322,28 @@
         "overall": 3
       },
       "attendance": {
-        "totalPercentageAvg": 28,
+        "totalPercentageAvg": 32,
         "sessions": {
           "lec1": 44,
           "lec2": 23,
           "lec3": 45,
-          "lec5": 54
+          "lec5": 54,
+          "lec6": 74,
+          "lec7": 12
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 600,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
     {
       "userId": "4473751",
-      "name": "modak67",
+      "name": "KONDETI VENKATA MODAK PRASANNA KUMAR",
       "ccUsername": "modak67",
       "rollNo": "23bcs067",
       "modules": {
@@ -273,15 +359,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 15,
+        "totalPercentageAvg": 11,
         "sessions": {
           "lec1": 88
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "4475185",
-      "name": "siddhaartha09",
+      "name": "SIDDHAARTHA B S",
       "ccUsername": "siddhaartha09",
       "rollNo": "23bcs127",
       "modules": {
@@ -299,11 +393,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 300,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
+        }
       }
     },
     {
       "userId": "4475449",
-      "name": "om_pandey21",
+      "name": "OM PANDEY",
       "ccUsername": "om_pandey21",
       "rollNo": "23bds040",
       "modules": {
@@ -321,11 +423,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4475666",
-      "name": "keerthivassan",
+      "name": "S KEERTHIVASSAN",
       "ccUsername": "keerthivassan",
       "rollNo": "23bcs114",
       "modules": {
@@ -341,16 +451,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 8,
+        "totalPercentageAvg": 6,
         "sessions": {
           "lec1": 28,
           "lec5": 20
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 20,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "4485112",
-      "name": "satyam2520",
+      "name": "SATYAM GIRI",
       "ccUsername": "satyam2520",
       "rollNo": "23bec047",
       "modules": {
@@ -370,11 +488,19 @@
         "sessions": {
           "lec5": 0
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4490588",
-      "name": "janakiram141",
+      "name": "RAYIDI JANAKI RAM",
       "ccUsername": "janakiram141",
       "rollNo": "23bcs141",
       "modules": {
@@ -390,18 +516,26 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 46,
+        "totalPercentageAvg": 34,
         "sessions": {
           "lec0": 76,
           "lec1": 91,
           "lec2": 10,
           "lec4": 96
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4536499",
-      "name": "mohan12_12",
+      "name": "MOHANA KRISHNAN V",
       "ccUsername": "mohan12_12",
       "rollNo": "23bds035",
       "modules": {
@@ -419,11 +553,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4541651",
-      "name": "Saurav",
+      "name": "SAURAV SURESH KARKI",
       "ccUsername": "bcs118",
       "rollNo": "23bcs118",
       "modules": {
@@ -441,11 +583,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4661709",
-      "name": "tcNYwsrw",
+      "name": "DARABOINA HARSHITH",
       "ccUsername": "yrwhvvre",
       "rollNo": "23bcs037",
       "modules": {
@@ -463,11 +613,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 100,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
+        }
       }
     },
     {
       "userId": "4695420",
-      "name": "sairithvik_07",
+      "name": "KOTHAPALLI SAI RITHVIK REDDY",
       "ccUsername": "sairithvik_07",
       "rollNo": "23BCS070",
       "modules": {
@@ -483,19 +641,29 @@
         "overall": 81
       },
       "attendance": {
-        "totalPercentageAvg": 62,
+        "totalPercentageAvg": 71,
         "sessions": {
           "lec0": 98,
           "lec1": 66,
           "lec2": 19,
           "lec4": 99,
-          "lec5": 92
+          "lec5": 92,
+          "lec6": 95,
+          "lec7": 98
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "4795219",
-      "name": "BOPPUDI OM SAI CHAND IIIT Dharwad",
+      "name": "BOPPUDI OM SAI CHAND",
       "ccUsername": "dandy_isle_32",
       "rollNo": "23bcs035",
       "modules": {
@@ -511,17 +679,26 @@
         "overall": 27
       },
       "attendance": {
-        "totalPercentageAvg": 27,
+        "totalPercentageAvg": 26,
         "sessions": {
           "lec1": 72,
           "lec2": 42,
-          "lec5": 49
+          "lec5": 49,
+          "lec6": 44
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 790,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
     {
       "userId": "4795981",
-      "name": "Aayush Kr. Gupta",
+      "name": "AAYUSH KUMAR",
       "ccUsername": "i_am_aayushkr",
       "rollNo": "23bec001",
       "modules": {
@@ -539,11 +716,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "4807742",
-      "name": "Kuladeep Gompa",
+      "name": "GOMPA KULADEEP",
       "ccUsername": "solar_cats_21",
       "rollNo": "23bds021",
       "modules": {
@@ -559,15 +744,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 8,
+        "totalPercentageAvg": 6,
         "sessions": {
           "lec1": 45
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "4855850",
-      "name": "TANMAY GUPTA IIIT Dharwad",
+      "name": "TANMAY GUPTA",
       "ccUsername": "tanmaygupta01",
       "rollNo": "23bds061",
       "modules": {
@@ -583,17 +776,25 @@
         "overall": 3
       },
       "attendance": {
-        "totalPercentageAvg": 25,
+        "totalPercentageAvg": 19,
         "sessions": {
           "lec0": 56,
           "lec1": 92,
           "lec4": 1
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "5073346",
-      "name": "P SHARMI IIIT Dharwad",
+      "name": "P SHARMI",
       "ccUsername": "sharmibuilds",
       "rollNo": "23bcs090",
       "modules": {
@@ -609,16 +810,25 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 19,
+        "totalPercentageAvg": 22,
         "sessions": {
           "lec4": 65,
-          "lec5": 48
+          "lec5": 48,
+          "lec7": 60
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "5108345",
-      "name": "Varshith",
+      "name": "BAJJURU VARSHITH",
       "ccUsername": "pavani_3690",
       "rollNo": "23bds011",
       "modules": {
@@ -638,11 +848,19 @@
         "sessions": {
           "lec0": 6
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "5129160",
-      "name": "ADITYA GUNTUR IIIT Dharwad",
+      "name": "ADITYA GUNTUR",
       "ccUsername": "glad_orchid_68",
       "rollNo": "23bds003",
       "modules": {
@@ -658,7 +876,7 @@
         "overall": 13
       },
       "attendance": {
-        "totalPercentageAvg": 95,
+        "totalPercentageAvg": 72,
         "sessions": {
           "lec0": 92,
           "lec1": 95,
@@ -667,11 +885,19 @@
           "lec4": 97,
           "lec5": 100
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "5129347",
-      "name": "ABHINANDAN KUMAR IIIT Dharwad",
+      "name": "ABHINANDAN KUMAR",
       "ccUsername": "solo_abhi",
       "rollNo": "23BDS001",
       "modules": {
@@ -687,14 +913,24 @@
         "overall": 3
       },
       "attendance": {
-        "totalPercentageAvg": 77,
+        "totalPercentageAvg": 81,
         "sessions": {
           "lec0": 73,
           "lec1": 73,
           "lec2": 61,
           "lec3": 95,
           "lec4": 77,
-          "lec5": 84
+          "lec5": 84,
+          "lec6": 92,
+          "lec7": 93
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1000,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
@@ -718,11 +954,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "5316926",
-      "name": "tejaswi83",
+      "name": "TEJASWI A C",
       "ccUsername": "tejaswi83",
       "rollNo": "23bds064",
       "modules": {
@@ -742,13 +986,22 @@
         "sessions": {
           "lec1": 44,
           "lec2": 21,
-          "lec4": 73
+          "lec4": 73,
+          "lec6": 44
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "5425352",
-      "name": "Prathamesh Patil",
+      "name": "PATIL PRATHAMESH RAJARAM",
       "ccUsername": "swift_care_96",
       "rollNo": "23bds043",
       "modules": {
@@ -766,11 +1019,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "5426240",
-      "name": "akash07264",
+      "name": "LINGALA SAHITH AKASH MANIKANTA",
       "ccUsername": "akash07264",
       "rollNo": "23bds031",
       "modules": {
@@ -790,11 +1051,19 @@
         "sessions": {
           "lec2": 8
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "5450465",
-      "name": "DHULIPALLA HARSHA VARDHAN IIIT Dharwad",
+      "name": "DHULIPALLA HARSHA VARDHAN",
       "ccUsername": "band_frost_98",
       "rollNo": "23bcs045",
       "modules": {
@@ -810,20 +1079,30 @@
         "overall": 52
       },
       "attendance": {
-        "totalPercentageAvg": 66,
+        "totalPercentageAvg": 71,
         "sessions": {
           "lec0": 21,
           "lec1": 94,
           "lec2": 0,
           "lec3": 100,
           "lec4": 92,
-          "lec5": 90
+          "lec5": 90,
+          "lec6": 88,
+          "lec7": 85
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1000,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "5451779",
-      "name": "KALA SURYA NARAYANA RAO IIIT Dharwad",
+      "name": "KALA SURYA NARAYANA RAO",
       "ccUsername": "surya_iiit_dh",
       "rollNo": "23bds025",
       "modules": {
@@ -839,20 +1118,30 @@
         "overall": 32
       },
       "attendance": {
-        "totalPercentageAvg": 94,
+        "totalPercentageAvg": 90,
         "sessions": {
           "lec0": 84,
           "lec1": 96,
           "lec2": 98,
           "lec3": 99,
           "lec4": 92,
-          "lec5": 95
+          "lec5": 95,
+          "lec6": 91,
+          "lec7": 61
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "5569889",
-      "name": "KARRA RAM CHARAN NAYAK IIIT Dharwad",
+      "name": "KARRA RAM CHARAN NAYAK",
       "ccUsername": "ramcharan1919",
       "rollNo": "23bds029",
       "modules": {
@@ -868,15 +1157,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 1,
+        "totalPercentageAvg": 0,
         "sessions": {
           "lec2": 3
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "5576422",
-      "name": "YERUVA MAHESH REDDY IIIT Dharwad",
+      "name": "YERUVA MAHESH REDDY",
       "ccUsername": "tiding_tale_29",
       "rollNo": "23bcs136",
       "modules": {
@@ -892,15 +1189,23 @@
         "overall": 3
       },
       "attendance": {
-        "totalPercentageAvg": 3,
+        "totalPercentageAvg": 2,
         "sessions": {
           "lec4": 15
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1300,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "5595429",
-      "name": "BONGU ASHISH IIIT Dharwad",
+      "name": "BONGU ASHISH",
       "ccUsername": "hatch_magic_70",
       "rollNo": "23bds014",
       "modules": {
@@ -916,20 +1221,30 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 63,
+        "totalPercentageAvg": 60,
         "sessions": {
           "lec0": 17,
           "lec1": 91,
           "lec2": 42,
           "lec3": 86,
           "lec4": 68,
-          "lec5": 74
+          "lec5": 74,
+          "lec6": 80,
+          "lec7": 24
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 800,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
     {
       "userId": "5708314",
-      "name": "KAMBLE SAKSHAM SUCHIVRAT IIIT Dharwad",
+      "name": "KAMBLE SAKSHAM SUCHIVRAT",
       "ccUsername": "sc_fi_x86",
       "rollNo": "23bcs063",
       "modules": {
@@ -947,11 +1262,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
+        }
       }
     },
     {
       "userId": "6039362",
-      "name": "JYOTINDER YADAV IIIT Dharwad",
+      "name": "JYOTINDER YADAV",
       "ccUsername": "jyotinder",
       "rollNo": "23BCS058",
       "modules": {
@@ -969,11 +1292,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "6111641",
-      "name": "BALAJI CHANNAPPAGOUDAR IIIT Dharwad",
+      "name": "BALAJI CHANNAPPAGOUDAR",
       "ccUsername": "stench_apes_29",
       "rollNo": "23bec009",
       "modules": {
@@ -989,17 +1320,25 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 14,
+        "totalPercentageAvg": 10,
         "sessions": {
           "lec2": 9,
           "lec4": 69,
           "lec5": 4
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "6275060",
-      "name": "ADARSH S KAMATAGI IIIT Dharwad",
+      "name": "ADARSH S KAMATAGI",
       "ccUsername": "ms903",
       "rollNo": "23BCS005",
       "modules": {
@@ -1015,19 +1354,29 @@
         "overall": 71
       },
       "attendance": {
-        "totalPercentageAvg": 79,
+        "totalPercentageAvg": 82,
         "sessions": {
           "lec1": 97,
           "lec2": 92,
           "lec3": 95,
           "lec4": 92,
-          "lec5": 97
+          "lec5": 97,
+          "lec6": 92,
+          "lec7": 95
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 538,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
         }
       }
     },
     {
       "userId": "6366531",
-      "name": "karthik",
+      "name": "BHUKYA KARTHIK",
       "ccUsername": "karthik3006",
       "rollNo": "23bcs031",
       "modules": {
@@ -1045,6 +1394,14 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
@@ -1065,19 +1422,29 @@
         "overall": 9
       },
       "attendance": {
-        "totalPercentageAvg": 23,
+        "totalPercentageAvg": 35,
         "sessions": {
           "lec0": 16,
           "lec1": 37,
           "lec2": 19,
           "lec4": 36,
-          "lec5": 31
+          "lec5": 31,
+          "lec6": 81,
+          "lec7": 59
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 100,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "6899300",
-      "name": "SAISHA SURESH BORE IIIT Dharwad",
+      "name": "SAISHA SURESH BORE",
       "ccUsername": "rapid_hyena_22",
       "rollNo": "23bcs116",
       "modules": {
@@ -1098,11 +1465,19 @@
           "lec0": 6,
           "lec1": 1
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7002919",
-      "name": "Vaibhav Sharma",
+      "name": "VAIBHAV SHARMA",
       "ccUsername": "eventhorizon33",
       "rollNo": "23bds066",
       "modules": {
@@ -1118,18 +1493,26 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 63,
+        "totalPercentageAvg": 47,
         "sessions": {
           "lec0": 93,
           "lec1": 95,
           "lec2": 98,
           "lec5": 93
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7002981",
-      "name": "K Ganesh Chavhan",
+      "name": "K GANESH CHAVHAN",
       "ccUsername": "chavhann02",
       "rollNo": "23bcs059",
       "modules": {
@@ -1145,13 +1528,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 12,
+        "sessions": {
+          "lec7": 94
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7003059",
-      "name": "SARAGALLA MANASA IIIT Dharwad",
+      "name": "SARAGALLA MANASA",
       "ccUsername": "manasa_sarag",
       "rollNo": "23bds051",
       "modules": {
@@ -1167,15 +1560,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 11,
+        "totalPercentageAvg": 8,
         "sessions": {
           "lec1": 68
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037434",
-      "name": "RAHUL PATEL IIIT Dharwad",
+      "name": "RAHUL PATEL",
       "ccUsername": "rahulpateltrue",
       "rollNo": "23BDS047",
       "modules": {
@@ -1191,18 +1592,26 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 32,
+        "totalPercentageAvg": 24,
         "sessions": {
           "lec1": 5,
           "lec3": 12,
           "lec4": 88,
           "lec5": 86
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037440",
-      "name": "Venkatesh Dhangar",
+      "name": "DHANGAR VENKATESH CHANDRAKANT",
       "ccUsername": "venkatesh_041",
       "rollNo": "23bcs041",
       "modules": {
@@ -1220,11 +1629,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 100,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
+        }
       }
     },
     {
       "userId": "7037443",
-      "name": "ANKIT KUSHWAHA IIIT Dharwad",
+      "name": "ANKIT KUSHWAHA",
       "ccUsername": "sweet_cats_06",
       "rollNo": "23BDS008",
       "modules": {
@@ -1240,10 +1657,18 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 2,
+        "totalPercentageAvg": 1,
         "sessions": {
           "lec0": 1,
           "lec1": 10
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 800,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
@@ -1265,18 +1690,28 @@
         "overall": 23
       },
       "attendance": {
-        "totalPercentageAvg": 56,
+        "totalPercentageAvg": 65,
         "sessions": {
           "lec0": 86,
           "lec1": 90,
           "lec4": 92,
-          "lec5": 66
+          "lec5": 66,
+          "lec6": 95,
+          "lec7": 90
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 100,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "7037457",
-      "name": "JAYESHWAR PRATAP SINGH TANWAR IIIT Dharwad",
+      "name": "JAYESHWAR PRATAP SINGH TANWAR",
       "ccUsername": "jpst01",
       "rollNo": "23BEC023",
       "modules": {
@@ -1292,16 +1727,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 18,
+        "totalPercentageAvg": 13,
         "sessions": {
           "lec1": 62,
           "lec3": 44
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037459",
-      "name": "SHANTANU DUKARE IIIT Dharwad",
+      "name": "SHANTANU DUKARE",
       "ccUsername": "hatch_quilt_90",
       "rollNo": "23bcs121",
       "modules": {
@@ -1317,18 +1760,26 @@
         "overall": 3
       },
       "attendance": {
-        "totalPercentageAvg": 45,
+        "totalPercentageAvg": 34,
         "sessions": {
           "lec0": 48,
           "lec1": 71,
           "lec2": 79,
           "lec3": 72
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1300,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7037465",
-      "name": "MADDILA RAJESH IIIT Dharwad",
+      "name": "MADDILA RAJESH",
       "ccUsername": "madphoenix077",
       "rollNo": "23BCS077",
       "modules": {
@@ -1346,11 +1797,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037472",
-      "name": "MOHD ADNAN KHAN IIIT Dharwad",
+      "name": "MOHD ADNAN KHAN",
       "ccUsername": "brill_silk_90",
       "rollNo": "23bec028",
       "modules": {
@@ -1368,11 +1827,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037475",
-      "name": "AGGIMALLA ABHISHEK IIIT Dharwad",
+      "name": "AGGIMALLA ABHISHEK",
       "ccUsername": "aggimalla_04",
       "rollNo": "23bds004",
       "modules": {
@@ -1388,19 +1855,28 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 46,
+        "totalPercentageAvg": 40,
         "sessions": {
           "lec0": 48,
           "lec1": 8,
           "lec2": 63,
           "lec3": 59,
-          "lec4": 100
+          "lec4": 100,
+          "lec6": 41
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037485",
-      "name": "SAMBHAV MISHRA IIIT Dharwad",
+      "name": "SAMBHAV MISHRA",
       "ccUsername": "sambhav8282",
       "rollNo": "23bds050",
       "modules": {
@@ -1418,11 +1894,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037497",
-      "name": "CHEVIREDDY POTHAN SAI REDDY IIIT Dharwad",
+      "name": "CHEVIREDDY POTHAN SAI REDDY",
       "ccUsername": "pothan0",
       "rollNo": "23bds017",
       "modules": {
@@ -1438,15 +1922,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 1,
+        "totalPercentageAvg": 0,
         "sessions": {
           "lec3": 3
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037507",
-      "name": "Amarjeet Raj",
+      "name": "AMARJEET RAJ",
       "ccUsername": "amar_iiitd",
       "rollNo": "23bds006",
       "modules": {
@@ -1462,20 +1954,30 @@
         "overall": 20
       },
       "attendance": {
-        "totalPercentageAvg": 81,
+        "totalPercentageAvg": 68,
         "sessions": {
           "lec0": 80,
           "lec1": 96,
           "lec2": 95,
           "lec3": 61,
           "lec4": 96,
-          "lec5": 58
+          "lec5": 58,
+          "lec6": 52,
+          "lec7": 9
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 890,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
     {
       "userId": "7037510",
-      "name": "BHARATH PRASAD IIIT Dharwad",
+      "name": "BHARATH PRASAD",
       "ccUsername": "b23bec010",
       "rollNo": "23bec010",
       "modules": {
@@ -1493,6 +1995,14 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
@@ -1513,17 +2023,27 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 16,
+        "totalPercentageAvg": 13,
         "sessions": {
           "lec0": 11,
           "lec4": 17,
-          "lec5": 69
+          "lec5": 69,
+          "lec6": 7,
+          "lec7": 1
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037530",
-      "name": "MANIKESH KUMAR IIIT Dharwad",
+      "name": "MANIKESH KUMAR",
       "ccUsername": "manikeshk",
       "rollNo": "23bds032",
       "modules": {
@@ -1539,16 +2059,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 23,
+        "totalPercentageAvg": 17,
         "sessions": {
           "lec1": 63,
           "lec5": 73
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037541",
-      "name": "Mann Yadav",
+      "name": "MANN",
       "ccUsername": "muster_ref_38",
       "rollNo": "23bcs078",
       "modules": {
@@ -1566,11 +2094,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037552",
-      "name": "Shreedhar K B",
+      "name": "SHREEDHAR K B",
       "ccUsername": "shreedhar_23",
       "rollNo": "23BCS126",
       "modules": {
@@ -1590,6 +2126,14 @@
         "sessions": {
           "lec3": 5,
           "lec4": 3
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
@@ -1613,11 +2157,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 600,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
+        }
       }
     },
     {
       "userId": "7037569",
-      "name": "RANJITH BABU IIIT Dharwad",
+      "name": "RANJITH BABU",
       "ccUsername": "rba27",
       "rollNo": "23bec043",
       "modules": {
@@ -1637,11 +2189,19 @@
         "sessions": {
           "lec1": 5
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037570",
-      "name": "shivaputra",
+      "name": "SHIVAPUTRA",
       "ccUsername": "appu_800",
       "rollNo": "23bcs124",
       "modules": {
@@ -1657,17 +2217,25 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 3,
+        "totalPercentageAvg": 2,
         "sessions": {
           "lec0": 11,
           "lec1": 8,
           "lec2": 0
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037571",
-      "name": "SARTHAK GOYAL IIIT Dharwad",
+      "name": "SARTHAK GOYAL",
       "ccUsername": "sarthak_2",
       "rollNo": "23BCS117",
       "modules": {
@@ -1683,12 +2251,22 @@
         "overall": 72
       },
       "attendance": {
-        "totalPercentageAvg": 46,
+        "totalPercentageAvg": 56,
         "sessions": {
           "lec1": 92,
           "lec2": 3,
           "lec3": 92,
-          "lec4": 87
+          "lec4": 87,
+          "lec6": 84,
+          "lec7": 90
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 760,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
@@ -1710,19 +2288,29 @@
         "overall": 23
       },
       "attendance": {
-        "totalPercentageAvg": 71,
+        "totalPercentageAvg": 75,
         "sessions": {
           "lec1": 99,
           "lec2": 96,
           "lec3": 79,
           "lec4": 93,
-          "lec5": 56
+          "lec5": 56,
+          "lec6": 76,
+          "lec7": 98
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 850,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
     {
       "userId": "7037578",
-      "name": "UDAY PATEL IIIT Dharwad",
+      "name": "UDAY PATEL",
       "ccUsername": "lush_fold_85",
       "rollNo": "23bec058",
       "modules": {
@@ -1738,17 +2326,26 @@
         "overall": 20
       },
       "attendance": {
-        "totalPercentageAvg": 20,
+        "totalPercentageAvg": 21,
         "sessions": {
           "lec1": 48,
           "lec2": 13,
-          "lec5": 59
+          "lec5": 59,
+          "lec6": 46
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037580",
-      "name": "Himanshu Kumar",
+      "name": "HIMANSHU KUMAR",
       "ccUsername": "himanshu2112",
       "rollNo": "23bcs055",
       "modules": {
@@ -1764,19 +2361,29 @@
         "overall": 23
       },
       "attendance": {
-        "totalPercentageAvg": 30,
+        "totalPercentageAvg": 40,
         "sessions": {
           "lec0": 5,
           "lec1": 21,
           "lec2": 1,
           "lec4": 83,
-          "lec5": 71
+          "lec5": 71,
+          "lec6": 63,
+          "lec7": 80
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 700,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
     {
       "userId": "7037583",
-      "name": "C. Sai Aravind",
+      "name": "CHABALA SAI ARAVIND",
       "ccUsername": "computer10",
       "rollNo": "23bds075",
       "modules": {
@@ -1792,13 +2399,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 9,
+        "sessions": {
+          "lec7": 74
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037593",
-      "name": "Rithwik Mahanti",
+      "name": "RITHWIK MAHANTI",
       "ccUsername": "rithwik57",
       "rollNo": "23bcs109",
       "modules": {
@@ -1816,11 +2433,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037604",
-      "name": "SHIVAMBU DEV PANDEY IIIT Dharwad",
+      "name": "SHIVAMBU DEV PANDEY",
       "ccUsername": "colony_dog_43",
       "rollNo": "23BCS123",
       "modules": {
@@ -1838,11 +2463,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037626",
-      "name": "DHRUPAD DAS IIIT Dharwad",
+      "name": "DHRUPAD DAS",
       "ccUsername": "dhrupad_iiit18",
       "rollNo": "23bds018",
       "modules": {
@@ -1865,13 +2498,23 @@
           "lec2": 95,
           "lec3": 26,
           "lec4": 90,
-          "lec5": 95
+          "lec5": 95,
+          "lec6": 77,
+          "lec7": 89
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "7037643",
-      "name": "OJAS ABHIJIT JOGDAND IIIT Dharwad",
+      "name": "OJAS ABHIJIT JOGDAND",
       "ccUsername": "vigil_noble_44",
       "rollNo": "23BDS039",
       "modules": {
@@ -1889,11 +2532,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037644",
-      "name": "DUDLEWAR ADINATH BALAJIRAO IIIT Dharwad",
+      "name": "DUDLEWAR ADINATH BALAJIRAO",
       "ccUsername": "adinathd",
       "rollNo": "23bcs046",
       "modules": {
@@ -1909,13 +2560,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 2,
+        "sessions": {
+          "lec6": 20
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037645",
-      "name": "ABHINAV VERMA IIIT Dharwad",
+      "name": "ABHINAV VERMA",
       "ccUsername": "jolly_salt_98",
       "rollNo": "23bcs004",
       "modules": {
@@ -1931,13 +2592,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec7": 10
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1500,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7037646",
-      "name": "PENDEKATLA ANEESH IIIT Dharwad",
+      "name": "PENDEKATLA ANEESH",
       "ccUsername": "aneesh_pen",
       "rollNo": "23BCS095",
       "modules": {
@@ -1958,13 +2629,23 @@
           "lec1": 57,
           "lec2": 27,
           "lec4": 96,
-          "lec5": 98
+          "lec5": 98,
+          "lec6": 4,
+          "lec7": 89
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "7037648",
-      "name": "RATHOD GAGAN SURESH IIIT Dharwad",
+      "name": "RATHOD GAGAN SURESH",
       "ccUsername": "rathodgagan18",
       "rollNo": "23bcs106",
       "modules": {
@@ -1980,20 +2661,30 @@
         "overall": 70
       },
       "attendance": {
-        "totalPercentageAvg": 93,
+        "totalPercentageAvg": 94,
         "sessions": {
           "lec0": 97,
           "lec1": 85,
           "lec2": 100,
           "lec3": 83,
           "lec4": 100,
-          "lec5": 95
+          "lec5": 95,
+          "lec6": 92,
+          "lec7": 98
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037649",
-      "name": "PULKIT YADAV IIIT Dharwad",
+      "name": "PULKIT YADAV",
       "ccUsername": "pulkit_yadav07",
       "rollNo": "23BEC042",
       "modules": {
@@ -2011,11 +2702,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037651",
-      "name": "ARUNODAYA HOSAKERI IIIT Dharwad",
+      "name": "ARUNODAYA HOSAKERI",
       "ccUsername": "arun_hosakeri",
       "rollNo": "23bcs017",
       "modules": {
@@ -2031,19 +2730,29 @@
         "overall": 39
       },
       "attendance": {
-        "totalPercentageAvg": 73,
+        "totalPercentageAvg": 70,
         "sessions": {
           "lec1": 97,
           "lec2": 76,
           "lec3": 92,
           "lec4": 85,
-          "lec5": 85
+          "lec5": 85,
+          "lec6": 37,
+          "lec7": 89
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1500,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "7037652",
-      "name": "AKHILESH RAJENDRAKUMAR GHADGE IIIT Dharwad",
+      "name": "AKHILESH RAJENDRAKUMAR GHADGE",
       "ccUsername": "akhilesh1123",
       "rollNo": "23bec004",
       "modules": {
@@ -2061,6 +2770,14 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
@@ -2083,11 +2800,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037656",
-      "name": "AMAL MOHANAN IIIT Dharwad",
+      "name": "AMAL MOHANAN",
       "ccUsername": "amal99999",
       "rollNo": "23bcs012",
       "modules": {
@@ -2105,11 +2830,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037658",
-      "name": "MADHUR SINGH IIIT Dharwad",
+      "name": "MADHUR SINGH",
       "ccUsername": "clean_scene_30",
       "rollNo": "23BEC024",
       "modules": {
@@ -2127,11 +2860,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037664",
-      "name": "Shamanth Rao",
+      "name": "SHAMANTH RAO",
       "ccUsername": "goofy_steel_19",
       "rollNo": "23bec049",
       "modules": {
@@ -2147,18 +2888,26 @@
         "overall": 43
       },
       "attendance": {
-        "totalPercentageAvg": 54,
+        "totalPercentageAvg": 40,
         "sessions": {
           "lec1": 41,
           "lec2": 94,
           "lec3": 96,
           "lec4": 90
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7037665",
-      "name": "Bikram Hawladar",
+      "name": "BIKRAM HAWLADAR",
       "ccUsername": "zany_spark_88",
       "rollNo": "23bcs033",
       "modules": {
@@ -2174,15 +2923,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 13,
+        "totalPercentageAvg": 22,
         "sessions": {
-          "lec5": 80
+          "lec5": 80,
+          "lec7": 97
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037666",
-      "name": "CHITRANGANA LAXKAR IIIT Dharwad",
+      "name": "CHITRANGANA LAXKAR",
       "ccUsername": "chitrangana_10",
       "rollNo": "23BEC012",
       "modules": {
@@ -2203,11 +2961,19 @@
           "lec1": 1,
           "lec5": 6
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037668",
-      "name": "Pratyush Anand",
+      "name": "PRATYUSH ANAND",
       "ccUsername": "pratyush_1607",
       "rollNo": "23bec039",
       "modules": {
@@ -2223,15 +2989,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 8,
+        "totalPercentageAvg": 6,
         "sessions": {
           "lec5": 48
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037671",
-      "name": "DHRUV R KATTI IIIT Dharwad",
+      "name": "DHRUV R KATTI",
       "ccUsername": "tiding_harp_75",
       "rollNo": "23BEC015",
       "modules": {
@@ -2248,12 +3022,23 @@
       },
       "attendance": {
         "totalPercentageAvg": 0,
-        "sessions": {}
+        "sessions": {
+          "lec6": 4,
+          "lec7": 0
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037688",
-      "name": "Amritanshu Aditya",
+      "name": "AMRITANSHU ADITYA",
       "ccUsername": "amrit_23bcs013",
       "rollNo": "23BCS013",
       "modules": {
@@ -2269,13 +3054,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 2,
+        "sessions": {
+          "lec7": 19
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 400,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
+        }
       }
     },
     {
       "userId": "7037691",
-      "name": "VANGA SHANI VENKATESH IIIT Dharwad",
+      "name": "VANGA SHANI VENKATESH",
       "ccUsername": "fine_harp_56",
       "rollNo": "23bec060",
       "modules": {
@@ -2293,11 +3088,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037703",
-      "name": "OJAS TULSHIAN IIIT Dharwad",
+      "name": "OJAS TULSHIAN",
       "ccUsername": "clean_hill_25",
       "rollNo": "23bec034",
       "modules": {
@@ -2315,11 +3118,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037729",
-      "name": "YOGESH GUPTA IIIT Dharwad",
+      "name": "YOGESH GUPTA",
       "ccUsername": "grand_tryst_51",
       "rollNo": "23bcs137",
       "modules": {
@@ -2337,11 +3148,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037732",
-      "name": "BHUMICA JAISWAL IIIT Dharwad",
+      "name": "BHUMICA JAISWAL",
       "ccUsername": "the_drift_17",
       "rollNo": "23bcs032",
       "modules": {
@@ -2359,11 +3178,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037734",
-      "name": "PRANAV KASHYAP IIIT Dharwad",
+      "name": "PRANAV KASHYAP",
       "ccUsername": "pure_pond_38",
       "rollNo": "23bcs098",
       "modules": {
@@ -2379,16 +3206,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 12,
+        "totalPercentageAvg": 9,
         "sessions": {
           "lec1": 50,
           "lec5": 23
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037739",
-      "name": "AALOK KUMAR IIIT Dharwad",
+      "name": "AALOK KUMAR",
       "ccUsername": "aalok112128",
       "rollNo": "23bcs003",
       "modules": {
@@ -2406,11 +3241,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037741",
-      "name": "MIHIR IIIT Dharwad",
+      "name": "MIHIR",
       "ccUsername": "mihir_23bcs080",
       "rollNo": "23bcs080",
       "modules": {
@@ -2426,19 +3269,29 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 69,
+        "totalPercentageAvg": 76,
         "sessions": {
           "lec0": 96,
           "lec1": 96,
           "lec3": 39,
           "lec4": 97,
-          "lec5": 88
+          "lec5": 88,
+          "lec6": 95,
+          "lec7": 96
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1300,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "7037749",
-      "name": "KANISHK PANDEY IIIT Dharwad",
+      "name": "KANISHK PANDEY",
       "ccUsername": "kanishkp19",
       "rollNo": "23BDS027",
       "modules": {
@@ -2456,11 +3309,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037765",
-      "name": "RAKSHIT VERMA IIIT Dharwad",
+      "name": "RAKSHIT VERMA",
       "ccUsername": "rverma_0631",
       "rollNo": "23bcs105",
       "modules": {
@@ -2476,15 +3337,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 5,
+        "totalPercentageAvg": 4,
         "sessions": {
           "lec0": 28
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7037784",
-      "name": "Kula deepthi",
+      "name": "BHUMIREDDY KULA DEEPTHI",
       "ccUsername": "dpti0612",
       "rollNo": "23bds013",
       "modules": {
@@ -2502,11 +3371,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7037796",
-      "name": "ANKIT KUMAR KESHARI IIIT Dharwad",
+      "name": "ANKIT KUMAR KESHARI",
       "ccUsername": "ankitkeshri52",
       "rollNo": "23BCS015",
       "modules": {
@@ -2524,11 +3401,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037797",
-      "name": "BABHALE ROHAN LAXMIKANT IIIT Dharwad",
+      "name": "BABHALE ROHAN LAXMIKANT",
       "ccUsername": "rohan_babhale",
       "rollNo": "23bcs026",
       "modules": {
@@ -2544,13 +3429,23 @@
         "overall": 17
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 2,
+        "sessions": {
+          "lec7": 13
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1000,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7037798",
-      "name": "PRANAV PRAMOD IIIT Dharwad",
+      "name": "PRANAV PRAMOD",
       "ccUsername": "glam_manor_97",
       "rollNo": "23bec038",
       "modules": {
@@ -2568,11 +3463,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037824",
-      "name": "HARSH RAJ IIIT Dharwad",
+      "name": "HARSH RAJ",
       "ccUsername": "elect_medal_55",
       "rollNo": "23bds076",
       "modules": {
@@ -2588,7 +3491,7 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 42,
+        "totalPercentageAvg": 32,
         "sessions": {
           "lec0": 5,
           "lec1": 66,
@@ -2596,11 +3499,19 @@
           "lec4": 87,
           "lec5": 46
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
+        }
       }
     },
     {
       "userId": "7037837",
-      "name": "BHAGYA VISHWAKARMA IIIT Dharwad",
+      "name": "BHAGYA VISHWAKARMA",
       "ccUsername": "bhagya_029",
       "rollNo": "23bcs029",
       "modules": {
@@ -2616,17 +3527,27 @@
         "overall": 33
       },
       "attendance": {
-        "totalPercentageAvg": 42,
+        "totalPercentageAvg": 48,
         "sessions": {
           "lec0": 77,
           "lec1": 82,
-          "lec5": 90
+          "lec5": 90,
+          "lec6": 38,
+          "lec7": 97
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 300,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
         }
       }
     },
     {
       "userId": "7037871",
-      "name": "KOTHAPALLY ANJAN REDDY IIIT Dharwad",
+      "name": "KOTHAPALLY ANJAN REDDY",
       "ccUsername": "anjan_reddy_59",
       "rollNo": "23bcs071",
       "modules": {
@@ -2642,17 +3563,27 @@
         "overall": 13
       },
       "attendance": {
-        "totalPercentageAvg": 24,
+        "totalPercentageAvg": 40,
         "sessions": {
           "lec1": 73,
           "lec2": 7,
-          "lec5": 64
+          "lec5": 64,
+          "lec6": 87,
+          "lec7": 93
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 680,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
     {
       "userId": "7037909",
-      "name": "KOUSHIK C IIIT Dharwad",
+      "name": "KOUSHIK C",
       "ccUsername": "koushikc_2244",
       "rollNo": "23BCS073",
       "modules": {
@@ -2668,9 +3599,17 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 4,
+        "totalPercentageAvg": 3,
         "sessions": {
           "lec1": 21
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
@@ -2692,8 +3631,19 @@
         "overall": 33
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 11,
+        "sessions": {
+          "lec6": 5,
+          "lec7": 84
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1500,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
@@ -2714,16 +3664,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 17,
+        "totalPercentageAvg": 13,
         "sessions": {
           "lec1": 97,
           "lec3": 7
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 300,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
         }
       }
     },
     {
       "userId": "7037943",
-      "name": "BHOOMIKA MANNUR",
+      "name": "BHOOMIKA MAHESH MANNUR",
       "ccUsername": "bhoomikamm",
       "rollNo": "23bcs030",
       "modules": {
@@ -2739,12 +3697,22 @@
         "overall": 63
       },
       "attendance": {
-        "totalPercentageAvg": 61,
+        "totalPercentageAvg": 68,
         "sessions": {
           "lec1": 96,
           "lec2": 94,
           "lec4": 93,
-          "lec5": 83
+          "lec5": 83,
+          "lec6": 87,
+          "lec7": 90
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1500,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
@@ -2768,11 +3736,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7037970",
-      "name": "YASH SRIVASTAVA IIIT Dharwad",
+      "name": "YASH SRIVASTAVA",
       "ccUsername": "yash_the_goat",
       "rollNo": "23BDS071",
       "modules": {
@@ -2788,16 +3764,25 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 30,
+        "totalPercentageAvg": 22,
         "sessions": {
           "lec1": 100,
-          "lec4": 77
+          "lec4": 77,
+          "lec6": 2
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "7037975",
-      "name": "G V PRAJWAL IIIT Dharwad",
+      "name": "G V PRAJWAL",
       "ccUsername": "andesindica25",
       "rollNo": "23bcs048",
       "modules": {
@@ -2813,15 +3798,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 4,
+        "totalPercentageAvg": 3,
         "sessions": {
-          "lec5": 25
+          "lec5": 25,
+          "lec7": 2
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1275,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "7037981",
-      "name": "RAHUL SONI IIIT Dharwad",
+      "name": "RAHUL SONI",
       "ccUsername": "bold_score_26",
       "rollNo": "23bcs104",
       "modules": {
@@ -2839,11 +3833,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 800,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
+        }
       }
     },
     {
       "userId": "7037987",
-      "name": "A Vagish Adinad",
+      "name": "A VAGISH ADINAD",
       "ccUsername": "adinad_21",
       "rollNo": "23bcs001",
       "modules": {
@@ -2859,18 +3861,27 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 61,
+        "totalPercentageAvg": 55,
         "sessions": {
           "lec1": 86,
           "lec2": 97,
           "lec3": 99,
-          "lec4": 84
+          "lec4": 84,
+          "lec6": 73
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7038005",
-      "name": "NIRBHAY GUPTA IIIT Dharwad",
+      "name": "NIRBHAY GUPTA",
       "ccUsername": "nirbhay4",
       "rollNo": "23bec032",
       "modules": {
@@ -2886,17 +3897,25 @@
         "overall": 3
       },
       "attendance": {
-        "totalPercentageAvg": 5,
+        "totalPercentageAvg": 3,
         "sessions": {
           "lec1": 14,
           "lec2": 0,
           "lec4": 13
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038008",
-      "name": "RACHANA Malakappa KADLEWAD",
+      "name": "RACHANA MALAKAPPA KADLEWAD",
       "ccUsername": "rachana_mlk",
       "rollNo": "23bcs101",
       "modules": {
@@ -2912,18 +3931,26 @@
         "overall": 10
       },
       "attendance": {
-        "totalPercentageAvg": 33,
+        "totalPercentageAvg": 25,
         "sessions": {
           "lec1": 46,
           "lec2": 1,
           "lec4": 92,
           "lec5": 58
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038039",
-      "name": "JAKKOJU KALYAN IIIT Dharwad",
+      "name": "JAKKOJU KALYAN",
       "ccUsername": "j_kalyan7",
       "rollNo": "23bec022",
       "modules": {
@@ -2943,11 +3970,19 @@
         "sessions": {
           "lec4": 8
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038053",
-      "name": "GADUPUDI RAKESH IIIT Dharwad",
+      "name": "GADUPUDI RAKESH",
       "ccUsername": "g_rakesh17",
       "rollNo": "23BCS049",
       "modules": {
@@ -2963,18 +3998,27 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 34,
+        "totalPercentageAvg": 32,
         "sessions": {
           "lec0": 59,
           "lec1": 95,
           "lec2": 0,
-          "lec5": 48
+          "lec5": 48,
+          "lec7": 57
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "7038064",
-      "name": "Gaurav Kumar Chandravanshi",
+      "name": "GAURAV KUMAR",
       "ccUsername": "spidermango",
       "rollNo": "23bec019",
       "modules": {
@@ -2990,20 +4034,30 @@
         "overall": 82
       },
       "attendance": {
-        "totalPercentageAvg": 68,
+        "totalPercentageAvg": 65,
         "sessions": {
           "lec0": 98,
           "lec1": 77,
           "lec2": 74,
           "lec3": 27,
           "lec4": 94,
-          "lec5": 35
+          "lec5": 35,
+          "lec6": 67,
+          "lec7": 46
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "7038074",
-      "name": "MAYANK BANSAL IIIT Dharwad",
+      "name": "MAYANK BANSAL",
       "ccUsername": "mayankdev",
       "rollNo": "23bec026",
       "modules": {
@@ -3024,13 +4078,22 @@
           "lec0": 84,
           "lec1": 69,
           "lec3": 31,
-          "lec5": 98
+          "lec5": 98,
+          "lec7": 91
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1500,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "7038128",
-      "name": "Divyansh Mishra",
+      "name": "DIVYANSH MISHRA",
       "ccUsername": "gnd_0",
       "rollNo": "23bec016",
       "modules": {
@@ -3050,11 +4113,19 @@
         "sessions": {
           "lec1": 1
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038131",
-      "name": "SHARATH A RAJAWATH IIIT Dharwad",
+      "name": "SHARATH A RAJAWATH",
       "ccUsername": "sraj_06",
       "rollNo": "23bec050",
       "modules": {
@@ -3072,11 +4143,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038140",
-      "name": "JAKKIREDDY GANESH KUMAR REDDY IIIT Dharwad",
+      "name": "JAKKIREDDY GANESH KUMAR REDDY",
       "ccUsername": "route_cliff_59",
       "rollNo": "23BDS024",
       "modules": {
@@ -3092,20 +4171,30 @@
         "overall": 7
       },
       "attendance": {
-        "totalPercentageAvg": 88,
+        "totalPercentageAvg": 90,
         "sessions": {
           "lec0": 81,
           "lec1": 95,
           "lec2": 79,
           "lec3": 92,
           "lec4": 82,
-          "lec5": 97
+          "lec5": 97,
+          "lec6": 97,
+          "lec7": 93
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 100,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "7038146",
-      "name": "Manyam Jagadeeswar Reddy",
+      "name": "MANYAM JAGADEESWAR REDDY",
       "ccUsername": "crash_pine_21",
       "rollNo": "23bds033",
       "modules": {
@@ -3123,11 +4212,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038153",
-      "name": "TARAN JAIN IIIT Dharwad",
+      "name": "TARAN JAIN",
       "ccUsername": "taran19",
       "rollNo": "23BDS062",
       "modules": {
@@ -3143,15 +4240,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 1,
+        "totalPercentageAvg": 0,
         "sessions": {
           "lec2": 4
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7038160",
-      "name": "PRADNESH FERNANDEZ A IIIT Dharwad",
+      "name": "PRADNESH FERNANDEZ A",
       "ccUsername": "pradnesh26",
       "rollNo": "23bds044",
       "modules": {
@@ -3169,11 +4274,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038163",
-      "name": "Ganesh Kumatole",
+      "name": "GANESH KUMATOLE",
       "ccUsername": "ganeshkumatole",
       "rollNo": "23bcs050",
       "modules": {
@@ -3189,19 +4302,29 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 69,
+        "totalPercentageAvg": 65,
         "sessions": {
           "lec1": 72,
           "lec2": 99,
           "lec3": 51,
           "lec4": 98,
-          "lec5": 93
+          "lec5": 93,
+          "lec6": 46,
+          "lec7": 62
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 400,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
         }
       }
     },
     {
       "userId": "7038179",
-      "name": "PRATYUSH KUMAR IIIT Dharwad",
+      "name": "PRATYUSH KUMAR",
       "ccUsername": "pratyushkr04",
       "rollNo": "23BCS099",
       "modules": {
@@ -3217,8 +4340,18 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 2,
+        "sessions": {
+          "lec6": 17
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 40,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
+        }
       }
     },
     {
@@ -3243,11 +4376,19 @@
         "sessions": {
           "lec1": 7
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038221",
-      "name": "SHREE VATS IIIT Dharwad",
+      "name": "SHREE VATS",
       "ccUsername": "glam_turkey_83",
       "rollNo": "23bds055",
       "modules": {
@@ -3265,11 +4406,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038255",
-      "name": "ARNAV GUPTA IIIT Dharwad",
+      "name": "ARNAV GUPTA",
       "ccUsername": "codeysuperio",
       "rollNo": "23BDS009",
       "modules": {
@@ -3289,11 +4438,19 @@
         "sessions": {
           "lec4": 1
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038277",
-      "name": "SHOUVIK DAS IIIT Dharwad",
+      "name": "SHOUVIK DAS",
       "ccUsername": "shouvik_das",
       "rollNo": "23bcs125",
       "modules": {
@@ -3309,20 +4466,30 @@
         "overall": 37
       },
       "attendance": {
-        "totalPercentageAvg": 67,
+        "totalPercentageAvg": 61,
         "sessions": {
           "lec0": 29,
           "lec1": 84,
           "lec2": 84,
           "lec3": 74,
           "lec4": 42,
-          "lec5": 89
+          "lec5": 89,
+          "lec6": 1,
+          "lec7": 88
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 910,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
         }
       }
     },
     {
       "userId": "7038332",
-      "name": "mokshagna",
+      "name": "INTURI MOKSHAGNA",
       "ccUsername": "sophia_123",
       "rollNo": "23bcs056",
       "modules": {
@@ -3338,19 +4505,29 @@
         "overall": 30
       },
       "attendance": {
-        "totalPercentageAvg": 75,
+        "totalPercentageAvg": 78,
         "sessions": {
           "lec1": 92,
           "lec2": 95,
           "lec3": 94,
           "lec4": 79,
-          "lec5": 91
+          "lec5": 91,
+          "lec6": 85,
+          "lec7": 88
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7038343",
-      "name": "Piyush Maurya",
+      "name": "PIYUSH MAURYA",
       "ccUsername": "vigil_trek97",
       "rollNo": "23bcs097",
       "modules": {
@@ -3368,11 +4545,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038383",
-      "name": "HARI PRASAD L IIIT Dharwad",
+      "name": "HARI PRASAD L",
       "ccUsername": "bhoko_3103",
       "rollNo": "23BDS022",
       "modules": {
@@ -3390,11 +4575,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038419",
-      "name": "DAWARE GANESH DIGAMBAR IIIT Dharwad",
+      "name": "DAWARE GANESH DIGAMBAR",
       "ccUsername": "ganesh23bcs038",
       "rollNo": "23bcs038",
       "modules": {
@@ -3410,13 +4603,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 24,
+        "sessions": {
+          "lec6": 96,
+          "lec7": 97
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
+        }
       }
     },
     {
       "userId": "7038597",
-      "name": "Neeraj Rahul Nair",
+      "name": "NEERAJ RAHUL NAIR",
       "ccUsername": "angel_team_58",
       "rollNo": "23bcs085",
       "modules": {
@@ -3432,13 +4636,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 1,
+        "sessions": {
+          "lec7": 9
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7038600",
-      "name": "AYUSH SANJAY SINHA IIIT Dharwad",
+      "name": "AYUSH SANJAY SINHA",
       "ccUsername": "inifinitvoid42",
       "rollNo": "23bec008",
       "modules": {
@@ -3454,15 +4668,23 @@
         "overall": 33
       },
       "attendance": {
-        "totalPercentageAvg": 8,
+        "totalPercentageAvg": 6,
         "sessions": {
           "lec0": 49
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7038620",
-      "name": "PRAKHAR IIIT Dharwad",
+      "name": "PRAKHAR",
       "ccUsername": "prakhar335",
       "rollNo": "23BEC037",
       "modules": {
@@ -3478,18 +4700,27 @@
         "overall": 57
       },
       "attendance": {
-        "totalPercentageAvg": 54,
+        "totalPercentageAvg": 53,
         "sessions": {
           "lec0": 68,
           "lec1": 86,
           "lec3": 88,
-          "lec5": 84
+          "lec5": 84,
+          "lec7": 97
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 260,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "7039462",
-      "name": "ALOK KUMAR DAS IIIT Dharwad",
+      "name": "ALOK KUMAR DAS",
       "ccUsername": "alok_ccf_26",
       "rollNo": "23bcs010",
       "modules": {
@@ -3512,13 +4743,23 @@
           "lec2": 98,
           "lec3": 97,
           "lec4": 86,
-          "lec5": 92
+          "lec5": 92,
+          "lec6": 87,
+          "lec7": 97
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7039501",
-      "name": "MOMIN M IIIT Dharwad",
+      "name": "MOMIN M",
       "ccUsername": "mominiiitdwd",
       "rollNo": "23bds036",
       "modules": {
@@ -3534,17 +4775,25 @@
         "overall": 17
       },
       "attendance": {
-        "totalPercentageAvg": 4,
+        "totalPercentageAvg": 3,
         "sessions": {
           "lec0": 19,
           "lec1": 4,
           "lec3": 2
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 310,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
+        }
       }
     },
     {
       "userId": "7039529",
-      "name": "Yuvansh Chauhan",
+      "name": "YUVANSH CHAUHAN",
       "ccUsername": "yuvansh0211",
       "rollNo": "23bcs139",
       "modules": {
@@ -3560,16 +4809,26 @@
         "overall": 13
       },
       "attendance": {
-        "totalPercentageAvg": 18,
+        "totalPercentageAvg": 36,
         "sessions": {
           "lec0": 48,
-          "lec5": 60
+          "lec5": 60,
+          "lec6": 89,
+          "lec7": 94
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 310,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
         }
       }
     },
     {
       "userId": "7039828",
-      "name": "Sadhgun Ram",
+      "name": "DASI SADHGUN RAM",
       "ccUsername": "spinach_cutie4",
       "rollNo": "23BEC014",
       "modules": {
@@ -3585,9 +4844,17 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 1,
+        "totalPercentageAvg": 0,
         "sessions": {
           "lec5": 3
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
@@ -3609,17 +4876,27 @@
         "overall": 53
       },
       "attendance": {
-        "totalPercentageAvg": 16,
+        "totalPercentageAvg": 28,
         "sessions": {
           "lec0": 48,
           "lec2": 18,
-          "lec3": 31
+          "lec3": 31,
+          "lec6": 75,
+          "lec7": 55
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 260,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
     {
       "userId": "7039833",
-      "name": "S K KEERTHI VARMAN IIIT Dharwad",
+      "name": "S K KEERTHI VARMAN",
       "ccUsername": "many_tomb_83",
       "rollNo": "23bcs113",
       "modules": {
@@ -3636,12 +4913,22 @@
       },
       "attendance": {
         "totalPercentageAvg": 0,
-        "sessions": {}
+        "sessions": {
+          "lec6": 1
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7039850",
-      "name": "Palak",
+      "name": "PALAK GUPTA",
       "ccUsername": "epic_sail",
       "rollNo": "23bds042",
       "modules": {
@@ -3659,11 +4946,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7039854",
-      "name": "Ritik Kumar Shahi",
+      "name": "RITIK KUMAR SHAHI",
       "ccUsername": "cry_hope_12",
       "rollNo": "23bcs110",
       "modules": {
@@ -3681,11 +4976,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7039862",
-      "name": "RAHUL CHHAJED IIIT Dharwad",
+      "name": "RAHUL CHHAJED",
       "ccUsername": "muster_wisp_06",
       "rollNo": "23bcs103",
       "modules": {
@@ -3703,11 +5006,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7039871",
-      "name": "M RAJU IIIT Dharwad",
+      "name": "M RAJU",
       "ccUsername": "raju_nayak_121",
       "rollNo": "23BCS076",
       "modules": {
@@ -3723,15 +5034,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 2,
+        "totalPercentageAvg": 1,
         "sessions": {
           "lec5": 10
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7039984",
-      "name": "P B SHREYAS IIIT Dharwad",
+      "name": "P B SHREYAS",
       "ccUsername": "blest_pine_63",
       "rollNo": "23BDS041",
       "modules": {
@@ -3749,11 +5068,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7039985",
-      "name": "Harsha Vardan",
+      "name": "BUSAM HARSHA VARDAN",
       "ccUsername": "harsha_25_a",
       "rollNo": "23BDS015",
       "modules": {
@@ -3769,13 +5096,23 @@
         "overall": 35
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 6,
+        "sessions": {
+          "lec7": 50
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 800,
+          "totalScore": 1500,
+          "problemsSolved": "3/5",
+          "category": "60%+"
+        }
       }
     },
     {
       "userId": "7039994",
-      "name": "BODDEPALLI LAKSHMI VARA PRASAD IIIT Dharwad",
+      "name": "BODDEPALLI LAKSHMI VARA PRASAD",
       "ccUsername": "vara_23bcs034",
       "rollNo": "23BCS034",
       "modules": {
@@ -3793,11 +5130,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7040005",
-      "name": "ADITYA SHARMA IIIT Dharwad",
+      "name": "ADITYA SHARMA",
       "ccUsername": "aditya5157",
       "rollNo": "23bcs007",
       "modules": {
@@ -3815,11 +5160,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7040032",
-      "name": "SAAGARIKA URAL S IIIT Dharwad",
+      "name": "SAAGARIKA URAL S",
       "ccUsername": "saagarika_ural",
       "rollNo": "23bec044",
       "modules": {
@@ -3835,12 +5188,22 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 63,
+        "totalPercentageAvg": 66,
         "sessions": {
           "lec1": 96,
           "lec2": 90,
           "lec3": 99,
-          "lec4": 94
+          "lec4": 94,
+          "lec6": 86,
+          "lec7": 64
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "0-1/5",
+          "category": "Below 40%"
         }
       }
     },
@@ -3862,17 +5225,25 @@
         "overall": 20
       },
       "attendance": {
-        "totalPercentageAvg": 18,
+        "totalPercentageAvg": 13,
         "sessions": {
           "lec1": 71,
           "lec2": 5,
           "lec5": 30
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1180,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7040046",
-      "name": "AGGUNNA DILEEP IIIT Dharwad",
+      "name": "AGGUNNA DILEEP",
       "ccUsername": "adileep_2006",
       "rollNo": "23bec003",
       "modules": {
@@ -3890,11 +5261,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7040091",
-      "name": "SIRIPALLI MANOJ KUMAR IIIT Dharwad",
+      "name": "SIRIPALLI MANOJ KUMAR",
       "ccUsername": "flash_cloud_46",
       "rollNo": "23bds056",
       "modules": {
@@ -3912,11 +5291,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7040100",
-      "name": "DEEPENDRA KUMAR SINGH IIIT Dharwad",
+      "name": "DEEPENDRA KUMAR SINGH",
       "ccUsername": "coke_butter",
       "rollNo": "23BCS039",
       "modules": {
@@ -3934,11 +5321,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7040133",
-      "name": "P SHASANK PAVAN",
+      "name": "PENNERU SHASANK PAVAN",
       "ccUsername": "pavanmsd123",
       "rollNo": "23BCS096",
       "modules": {
@@ -3954,13 +5349,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 0,
-        "sessions": {}
+        "totalPercentageAvg": 11,
+        "sessions": {
+          "lec7": 86
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1300,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7040141",
-      "name": "AMITH MATHEW IIIT Dharwad",
+      "name": "AMITH MATHEW",
       "ccUsername": "soon_violet_19",
       "rollNo": "23BEC005",
       "modules": {
@@ -3976,15 +5381,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 1,
+        "totalPercentageAvg": 0,
         "sessions": {
           "lec1": 4
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7040154",
-      "name": "ATHARVA AGRAWAL IIIT Dharwad",
+      "name": "ATHARVA AGRAWAL",
       "ccUsername": "atharva_08",
       "rollNo": "23BDS010",
       "modules": {
@@ -4002,11 +5415,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7040171",
-      "name": "MOHD IBRAHIM IIIT Dharwad",
+      "name": "MOHD IBRAHIM",
       "ccUsername": "sorcesstarks",
       "rollNo": "23bcs084",
       "modules": {
@@ -4024,11 +5445,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7040358",
-      "name": "HAMMAD MALIK IIIT Dharwad",
+      "name": "HAMMAD MALIK",
       "ccUsername": "malik_44",
       "rollNo": "23bcs052",
       "modules": {
@@ -4044,15 +5473,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 9,
+        "totalPercentageAvg": 7,
         "sessions": {
           "lec0": 53
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7040405",
-      "name": "KARAN KABDAL IIIT Dharwad",
+      "name": "KARAN KABDAL",
       "ccUsername": "fresh_stone_96",
       "rollNo": "23bds028",
       "modules": {
@@ -4070,11 +5507,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043187",
-      "name": "Ausula Koustubh",
+      "name": "AUSULA KOUSTUBH",
       "ccUsername": "tony_stank_118",
       "rollNo": "23bcs023",
       "modules": {
@@ -4092,11 +5537,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043190",
-      "name": "SHRIYANS K IIIT",
+      "name": "KANDIMALLA SHRIYANS",
       "ccUsername": "shriyans_k24",
       "rollNo": "23BCS064",
       "modules": {
@@ -4114,11 +5567,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043191",
-      "name": "RUTWIK S IIIT Dharwad",
+      "name": "RUTWIK S",
       "ccUsername": "quasi_sage_56",
       "rollNo": "23bcs112",
       "modules": {
@@ -4134,17 +5595,25 @@
         "overall": 20
       },
       "attendance": {
-        "totalPercentageAvg": 2,
+        "totalPercentageAvg": 1,
         "sessions": {
           "lec0": 2,
           "lec1": 1,
           "lec3": 6
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043197",
-      "name": "YOGESHGOUDA PATIL IIIT Dharwad",
+      "name": "YOGESHGOUDA PATIL",
       "ccUsername": "canny_apple_28",
       "rollNo": "23bcs138",
       "modules": {
@@ -4162,11 +5631,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043199",
-      "name": "Shardendu Sankritya Mishra",
+      "name": "SHARDENDU MISHRA",
       "ccUsername": "ssm22",
       "rollNo": "23bcs122",
       "modules": {
@@ -4187,11 +5664,19 @@
           "lec1": 9,
           "lec3": 3
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043201",
-      "name": "RODRIGUES SIMONE JOHN IIIT Dharwad",
+      "name": "RODRIGUES SIMONE JOHN",
       "ccUsername": "simonelikesyou",
       "rollNo": "23bcs111",
       "modules": {
@@ -4211,11 +5696,19 @@
         "sessions": {
           "lec2": 2
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043205",
-      "name": "SIRIGIREDDY SIVA TEJANANDA REDDY IIIT Dharwad",
+      "name": "SIRIGIREDDY SIVA TEJANANDA REDDY",
       "ccUsername": "sivateja007",
       "rollNo": "23bec053",
       "modules": {
@@ -4233,11 +5726,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043241",
-      "name": "KOTA SANJAY VEDA IIIT Dharwad",
+      "name": "KOTA SANJAY VEDA",
       "ccUsername": "sanjayvedakota",
       "rollNo": "23bcs069",
       "modules": {
@@ -4255,11 +5756,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043244",
-      "name": "VISHAVJEET IIIT Dharwad",
+      "name": "VISHAVJEET",
       "ccUsername": "vishuu_27",
       "rollNo": "23bds069",
       "modules": {
@@ -4277,11 +5786,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7043421",
-      "name": "VISHESH DWIVEDI IIIT Dharwad",
+      "name": "VISHESH DWIVEDI",
       "ccUsername": "engineer_fit",
       "rollNo": "23BCS135",
       "modules": {
@@ -4301,11 +5818,19 @@
         "sessions": {
           "lec1": 1
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7044232",
-      "name": "likhithkagitha",
+      "name": "KAGITHA LIKHITH",
       "ccUsername": "fine_truth_45",
       "rollNo": "23bcs061",
       "modules": {
@@ -4323,11 +5848,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7064612",
-      "name": "SHRIKANT SURESH GANGANNAVAR IIIT Dharwad",
+      "name": "SHRIKANT SURESH GANGANNAVAR",
       "ccUsername": "nice_rustle_51",
       "rollNo": "23BEC051",
       "modules": {
@@ -4347,11 +5880,19 @@
         "sessions": {
           "lec0": 8
         }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7073302",
-      "name": "Shaik Izhaar Ahmed",
+      "name": "SHAIK IZHAAR AHMED",
       "ccUsername": "iiitdw23bds053",
       "rollNo": "23BDS053",
       "modules": {
@@ -4367,16 +5908,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 17,
+        "totalPercentageAvg": 13,
         "sessions": {
           "lec0": 45,
           "lec5": 59
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 1480,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
         }
       }
     },
     {
       "userId": "7073303",
-      "name": "Advait pathak",
+      "name": "PATHAK ADVAIT RAVINDRA",
       "ccUsername": "iiitdw23bcs094",
       "rollNo": "23bcs094",
       "modules": {
@@ -4392,13 +5941,22 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 61,
+        "totalPercentageAvg": 47,
         "sessions": {
           "lec0": 54,
           "lec2": 87,
           "lec3": 92,
           "lec4": 70,
-          "lec5": 60
+          "lec5": 60,
+          "lec6": 16
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 510,
+          "totalScore": 1500,
+          "problemsSolved": "2/5",
+          "category": "40%+"
         }
       }
     },
@@ -4422,11 +5980,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7073306",
-      "name": "Nuthan K",
+      "name": "NUTHAN K",
       "ccUsername": "iiitdw23bcs088",
       "rollNo": "23bcs088",
       "modules": {
@@ -4442,15 +6008,24 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 5,
+        "totalPercentageAvg": 9,
         "sessions": {
-          "lec1": 32
+          "lec1": 32,
+          "lec6": 37
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7073307",
-      "name": "Sadanala Sasi Rekha",
+      "name": "SADANALA SASI REKHA",
       "ccUsername": "iiitdw23bds049",
       "rollNo": "23BDS049",
       "modules": {
@@ -4468,11 +6043,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 1100,
+          "totalScore": 1500,
+          "problemsSolved": "4-5/5",
+          "category": "80%+"
+        }
       }
     },
     {
       "userId": "7073308",
-      "name": "Katta Avaneesh Rao",
+      "name": "KATTA AVANEESH RAO",
       "ccUsername": "iiitdw23bcs065",
       "rollNo": "23bcs065",
       "modules": {
@@ -4490,11 +6073,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7073309",
-      "name": "Vinay Kumar",
+      "name": "VINAY KUMAR",
       "ccUsername": "iiitdw23bcs134",
       "rollNo": "23BCS134",
       "modules": {
@@ -4510,15 +6101,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 3,
+        "totalPercentageAvg": 2,
         "sessions": {
           "lec1": 17
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7073310",
-      "name": "Divyanshu",
+      "name": "DIVYANSHU",
       "ccUsername": "iiitdw23bec017",
       "rollNo": "23bec017",
       "modules": {
@@ -4535,12 +6134,22 @@
       },
       "attendance": {
         "totalPercentageAvg": 0,
-        "sessions": {}
+        "sessions": {
+          "lec7": 1
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7073311",
-      "name": "Om Mishra",
+      "name": "OM MISHRA",
       "ccUsername": "iiitdw23bec035",
       "rollNo": "23bec035",
       "modules": {
@@ -4558,11 +6167,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7073312",
-      "name": "Sanskar",
+      "name": "SANSKAR",
       "ccUsername": "iiitdw23bec045",
       "rollNo": "23bec045",
       "modules": {
@@ -4578,15 +6195,23 @@
         "overall": 0
       },
       "attendance": {
-        "totalPercentageAvg": 12,
+        "totalPercentageAvg": 9,
         "sessions": {
           "lec2": 74
+        }
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
         }
       }
     },
     {
       "userId": "7073314",
-      "name": "ashish singh",
+      "name": "ASHISH SINGH",
       "ccUsername": "iiitdw23bcs019",
       "rollNo": "23bcs019",
       "modules": {
@@ -4604,11 +6229,19 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     },
     {
       "userId": "7073315",
-      "name": "Savya Sanchi Sharma",
+      "name": "SAVYA SANCHI SHARMA",
       "ccUsername": "savya_sanchi",
       "rollNo": "23bds052",
       "modules": {
@@ -4626,7 +6259,27 @@
       "attendance": {
         "totalPercentageAvg": 0,
         "sessions": {}
+      },
+      "contest": {
+        "contest1": {
+          "score": 0,
+          "totalScore": 1500,
+          "problemsSolved": "—",
+          "category": "Unattempted"
+        }
       }
     }
-  ]
+  ],
+  "contestStats": {
+    "contest1": {
+      "totalParticipants": 64,
+      "categories": {
+        "80%+": 25,
+        "60%+": 13,
+        "40%+": 9,
+        "Below 40%": 17,
+        "Unattempted": 126
+      }
+    }
+  }
 }
